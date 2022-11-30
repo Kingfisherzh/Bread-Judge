@@ -1,0 +1,42 @@
+字数	word_count	id	original	translation	next	null
+3		2000	你是谁？	Who are you?	1002	null
+4		2001	难道……	Could that be... 	1004	null
+4		2002	谢谢……	Thanks... 	1013	null
+3		2003	坏面包？	Bad bread?	1019	null
+2		2004	证词？	testimony?	1022	null
+3		2005	我……	I... 	1044	null
+6		2006	同时也是……	And also... 	1046	null
+11		2007	我觉得她没有什么错……	I don't think she did anything wrong... 	1080	null
+2		2008	有罪！	Guilty!	1085	null
+6		2009	她没有恶意。	She meant not harm.	1095	null
+8		2010	她是关心学生的。	She cares about her students.	1095	null
+12		2011	她做的事情不至于被定罪。	What she did is not enough to convict her.	1095	null
+2		2012	是的	Yes		null
+4		2013	先别急。	No hurry.	1117	null
+7		2014	看你这副模样。	Look at you.	1120	null
+3		2015	无罪。	Not guilty.	1146	null
+3		2016	有罪。	Guilty.	1154	null
+2		2017	有罪！	Guilty！		null
+5		2018	审理案件。	Try the case.	1170	null
+4		2019	听故事。	Listen to the story.	1170	null
+2		2020	定罪！	Convicted!	1170	null
+11		2021	你能简单介绍一下自己吗？	Can you introduce yourself shortly?	1179	null
+11		2022	你看起来一点也不紧张。	You don't look nervous at all.	1180	null
+5		2023	这就是事实！	That is the truth!		null
+4		2024	是玩笑啦！	Just kidding!		null
+2		2025	有罪	Guilty		null
+2		2026	无罪	Not guilty		null
+8		2027	是因为你抽烟……	Because you smoke... 	1211	null
+7		2028	是因为卡片……	Because of the card... 	1218	null
+2		2029	有罪！	Guilty!	1231	null
+2		2030	无罪！	Not guilty!	1233	null
+8		2031	这到底是怎么回事？	What's going on?	1259	null
+8		2032	为什么我会是罪人？	Why am I the sinner?	1259	null
+4		2033	“我”是谁？	Who am "I"?	1275	null
+5		2034	“我”的工作？	"My" job?	1276	null
+5		2035	“我”的家族？	"My" family?	1281	null
+3		2036	我……	I... 	1287	null
+7		2037	前面的判决……	The sentences before... 	1292	null
+5		2038	我有罪……	I am guilty... 	1298	null
+6		2039	那些回忆……	Those memories... 	1311	null
+5		2040	那审判……	Those sentences... 	1316	null
