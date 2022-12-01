@@ -158,9 +158,10 @@ public class Story : IState
     {
         Debug.Log("StoryModeExit");
         round += 1;
-        storyManager.TurnOffAllStoryGroups();
+        //storyManager.TurnOffAllStoryGroups();
         GameObject.Find("great_next").GetComponent<Text>().text = "";   //清空挂载的great_next
         GameObject.Find("selected_item_num_in_story").GetComponent<Text>().text = "0";  //story中已选的数目变为0
+
     }
 
     public void OnUpdate()

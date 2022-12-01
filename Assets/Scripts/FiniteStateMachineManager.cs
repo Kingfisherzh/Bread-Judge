@@ -31,6 +31,12 @@ public class FiniteStateMachineManager : MonoBehaviour
     public GameObject story2;
     public GameObject story3;
     public GameObject story4;
+    public Dictionary<string, GameObject> storyDic = new Dictionary<string, GameObject>();
+
+    public GameObject group1;
+    public GameObject group2;
+    public GameObject group3;
+    public GameObject group4;
 
     public GameObject fatherImageHolder;
     public GameObject godImageHolder;
@@ -39,6 +45,8 @@ public class FiniteStateMachineManager : MonoBehaviour
     public GameObject fatherDialogBox;
     public GameObject godDialogBox;
     public GameObject breadDialogBox;
+    public GameObject fatherSinnerDialogBox;
+    public GameObject godDaughterDialogBox;
 
     // 图片立绘
     public GameObject croissant_normal;
@@ -50,11 +58,23 @@ public class FiniteStateMachineManager : MonoBehaviour
     public GameObject ciabatta_normal;
     public GameObject ciabatta_closeeye;
     public GameObject ciabatta_engry;
-    public GameObject father_normal;
     public GameObject god_00;
+    public GameObject god_normal;
+    public GameObject god_smail;
+    public GameObject god_hope;
     public GameObject father_00;
+    public GameObject father_look;
+    public GameObject father_normal;
     public Dictionary<string, GameObject> imageDic = new Dictionary<string, GameObject>();
 
+    public Button ExitGameButton;
+    public GameObject ItemSquare;
+    public GameObject stageSpotLight;
+
+    public GameObject sceneChange1;
+    public GameObject sceneChange2;
+    public GameObject sceneChange3;
+    public GameObject sceneChange4;
 
     public string next;
     public string great_next;
@@ -65,7 +85,7 @@ public class FiniteStateMachineManager : MonoBehaviour
     public List<string> choices = new List<string>();
     public int choice_num;
     public bool item_selectable;
-
+    public int scene_round;
 
     public bool isDialogClickable;   // 是否为对话中，是则允许点击
     public bool isClickingOnChoiceEnabled;    // 是否允许点击选项，是则允许点击。待挂载在按钮上
@@ -76,14 +96,18 @@ public class FiniteStateMachineManager : MonoBehaviour
     public bool ifChoice2Clicked;
     public bool ifChoice3Clicked;
 
+    public string latestStory;
+
     private void Awake()
     {
         AddImagesToImageDic();
+        AddStoriesToStoryDic();
         DisableDialogBoxes();
 
         next = "1000";
         great_next = "";
         choice_num = -1;
+        scene_round = 1;
 
         isDialogClickable = false;
         isClickingOnChoiceEnabled = false;
@@ -102,6 +126,14 @@ public class FiniteStateMachineManager : MonoBehaviour
         story2.SetActive(false);
         story3.SetActive(false);
         story4.SetActive(false);
+
+        sceneChange1.SetActive(false);
+        sceneChange2.SetActive(false);
+        sceneChange3.SetActive(false);
+        sceneChange4.SetActive(false);
+
+        ItemSquare.SetActive(false);
+        stageSpotLight.SetActive(false);
 
         //初始图
         fatherImageHolder = father_00;
@@ -123,6 +155,7 @@ public class FiniteStateMachineManager : MonoBehaviour
 
     public void SwitchToOtherState(State_Enum type)
     {
+        ItemSquare.SetActive(true);
         currenState = states[type];
         currenState.OnEnter();
     }
@@ -133,12 +166,21 @@ public class FiniteStateMachineManager : MonoBehaviour
         {
             currenState.OnExit();
         }
+
+        if (currenState == states[State_Enum.story] && latestStory.Length > 0)
+        {
+            StartCoroutine(PlayStoryAnimation(storyDic[latestStory], 1));
+            Debug.Log("ExitStoryAnimation");
+            //storyDic[latestStory].SetActive(false);
+        }
+
         currenState = states[State_Enum.talk_normal];
         isDialogClickable = true;
 
         isClickingOnChoiceEnabled = false;        
         ifDirectToStoryMode = false;    //关闭故事模式识别
         ifDirectToAnimationMode = false;    // 关闭动画模式识别
+        storyDic[latestStory].SetActive(false);
         Debug.Log("SwitchBackToTalkState");
     }
 
@@ -153,13 +195,60 @@ public class FiniteStateMachineManager : MonoBehaviour
             Debug.Log("textRow.story" + textRow.story);
             if (textRow.story.Length > 0)
             {
+                latestStory = textRow.story;
                 ifDirectToStoryMode = true;
+                StartCoroutine(PlayStoryAnimation(storyDic[textRow.story], 0));
             }
-            //// 判断是否进入动画模式
-            //else if (textRow.animation.Length > 0)
-            //{
-            //    ifDirectToAnimationMode = true;
-            //}
+            // 判断是否进入动画模式
+            else if (textRow.animation.Length > 0)
+            {
+                ifDirectToAnimationMode = true;
+                Debug.Log("textRow.animation: " + textRow.animation);
+                switch (textRow.animation)
+                {
+                    case "scene":
+                        switch (scene_round)
+                        {
+                            case 1:
+                                Debug.Log("SceneChanging");
+                                StartCoroutine(ReadyForSceneChange(sceneChange1));
+                                break;
+                            case 2:
+                                StartCoroutine(ReadyForSceneChange(sceneChange2));
+                                break;
+                            case 3:
+                                StartCoroutine(ReadyForSceneChange(sceneChange3));
+                                break;
+                            case 4:
+                                StartCoroutine(ReadyForSceneChange(sceneChange4));
+                                break;
+                        }
+                        scene_round += 1;
+                        break;
+                    case "crossiant-enter":
+                        StartCoroutine(PlayCrossiantEnterAnimation());
+                        break;
+                    case "baguette-enter":
+                        StartCoroutine(PlayBaguetteEnterAnimation());
+                        break;
+                    case "ciabatta-enter":
+                        StartCoroutine(PlayCiabattaEnterAnimation());
+                        break;
+                    case "guilty":
+                        StartCoroutine(PlayGuiltyAnimation());
+                        break;
+                    case "not_guilty":
+                        StartCoroutine(PlayNotGuiltyAnimation());
+                        break;
+                    case "father_enter":
+                        StartCoroutine(PlayFatherMoveAnimation());
+                        break;
+                    case "bread_jump":
+                        StartCoroutine(PlayBreadJumpAnimation());
+                        break;
+                }
+                ifDirectToAnimationMode = false;
+            }
         }
         else if (next.Length == 0)
         {
@@ -190,6 +279,8 @@ public class FiniteStateMachineManager : MonoBehaviour
         breadDialogBox.SetActive(false);
         godDialogBox.SetActive(false);
         fatherDialogBox.SetActive(false);
+        fatherSinnerDialogBox.SetActive(false);
+        godDaughterDialogBox.SetActive(false);
     }
 
     public void ClearItemGroupIfRoundOver(string id)
@@ -208,21 +299,41 @@ public class FiniteStateMachineManager : MonoBehaviour
         }
     }
 
+    public void DisplayEndGameButton()
+    {
+        ItemSquare.SetActive(false);
+        group1.SetActive(false);
+        group2.SetActive(false);
+        group3.SetActive(false);
+        group4.SetActive(false);
+        StartCoroutine(CloseDialog());
+        godDialogBox.SetActive(false);
+        ExitGameButton.gameObject.SetActive(true);
+    }
+
     public void DisplayNextDialog(Dictionary<string, TextReader.textData> localTextDic, string id)
     {
-        ClearItemGroupIfRoundOver(id);
-        DisableDialogBoxes();
-        displayDialogText(localTextDic[id].character, localTextDic[id].translation);  //展示说话人的对话
+        if (id != "1325")
+        {
+            ClearItemGroupIfRoundOver(id);
+            DisableDialogBoxes();
+            displayDialogText(localTextDic[id].character, localTextDic[id].translation);  //展示说话人的对话
 
-        displayImage(localTextDic[id].father_image);     //用文件名作为key，调取gameobject
-        displayImage(localTextDic[id].god_image);
-        displayImage(localTextDic[id].bread_image);
+            disableImages();
+            displayImage(localTextDic[id].father_image);     //用文件名作为key，调取gameobject
+            displayImage(localTextDic[id].god_image);
+            displayImage(localTextDic[id].bread_image);
 
-        //next = "";    //清空next句子，等待readCurrentRowOtherInfo里读取新的信息
-        isDialogClickable = true;
-        readCurrentRowOtherInfo(id);
+            //next = "";    //清空next句子，等待readCurrentRowOtherInfo里读取新的信息
+            isDialogClickable = true;
+            readCurrentRowOtherInfo(id);
 
-        Debug.Log("DisplayNextDialog");
+            Debug.Log("DisplayNextDialog");
+        }
+        else
+        {
+            DisplayEndGameButton();
+        }
     }
 
     public void DisplayNextChoices()
@@ -284,10 +395,6 @@ public class FiniteStateMachineManager : MonoBehaviour
         choice3.SetActive(false);
     }
 
-    public void disableClickOnScreen()
-    {
-
-    }
 
     public void displayDialogText(string character, string translation)
     {
@@ -301,11 +408,29 @@ public class FiniteStateMachineManager : MonoBehaviour
                 fatherDialogBox.SetActive(true);
                 fatherDialogBox.GetComponentInChildren<Text>().text = translation;
                 break;
+            case "主角罪人":
+                fatherDialogBox.SetActive(false);
+                fatherSinnerDialogBox.SetActive(true);
+                fatherSinnerDialogBox.GetComponentInChildren<Text>().text = translation;
+                break;
+
+            case "神女儿":
+                godDialogBox.SetActive(false);
+                godDaughterDialogBox.SetActive(true);
+                godDaughterDialogBox.GetComponentInChildren<Text>().text = translation;
+                break;
             default:
                 breadDialogBox.SetActive(true);
                 breadDialogBox.GetComponentInChildren<Text>().text = translation;
                 break;
         }
+    }
+
+    public void disableImages()
+    {
+        godImageHolder.SetActive(false);
+        fatherImageHolder.SetActive(false);
+        breadImageHolder.SetActive(false);
     }
 
     public void displayImage(string imgName)
@@ -314,19 +439,17 @@ public class FiniteStateMachineManager : MonoBehaviour
 
         if (character == "god")
         {
-            godImageHolder.SetActive(false);
             imageDic[imgName].SetActive(true);
             godImageHolder = imageDic[imgName];
         }
         else if (character == "father")
         {
-            fatherImageHolder.SetActive(false);
+            Debug.Log("father Image Name: " + imgName);
             imageDic[imgName].SetActive(true);
             fatherImageHolder = imageDic[imgName];
         }
         else if (character == "ciabatta" || character == "croissant" || character == "baguette")
         {
-            breadImageHolder.SetActive(false);
             imageDic[imgName].SetActive(true);
             breadImageHolder = imageDic[imgName];
         }
@@ -362,9 +485,14 @@ public class FiniteStateMachineManager : MonoBehaviour
         {
             Debug.Log("Next is Null");
 
+            //动画模式
+            if (ifDirectToAnimationMode)
+            {
+                SwitchToOtherState(State_Enum.animation);
+            }
             // 选项对话
             //if (choice_num > 0 && isDialogClickable == false)
-            if (choice_num > 0)
+            else if (choice_num > 0)
                 {
                 DisplayNextChoices();
                 next = "";  //清空next句子，等待点击返回的next
@@ -383,12 +511,6 @@ public class FiniteStateMachineManager : MonoBehaviour
                     item_selectable = false;
                 }
             }
-            //动画模式
-            else if (ifDirectToAnimationMode)
-            {
-                SwitchToOtherState(State_Enum.animation);
-            }
-
             //结束选项对话模式 或者 选中道具后对话全部结束
             else if (great_next.Length > 0)
             {
@@ -435,7 +557,12 @@ public class FiniteStateMachineManager : MonoBehaviour
         imageDic.Add("ciabatta_engry", ciabatta_engry);
         imageDic.Add("father_normal", father_normal);
         imageDic.Add("father_00", father_00);
+        imageDic.Add("father_look", father_look);
         imageDic.Add("god_00", god_00);
+        imageDic.Add("god_smail", god_smail);
+        imageDic.Add("god_normal", god_normal);
+        imageDic.Add("god_hope", god_hope);
+
 
         croissant_normal.SetActive(false);
         croissant_smail.SetActive(false);
@@ -447,5 +574,281 @@ public class FiniteStateMachineManager : MonoBehaviour
         ciabatta_closeeye.SetActive(false);
         ciabatta_engry.SetActive(false);
         father_normal.SetActive(false);
+        father_look.SetActive(false);
+        father_00.SetActive(false);
+        god_smail.SetActive(false);
+        god_normal.SetActive(false);
+        god_hope.SetActive(false);
+        god_00.SetActive(false);
+    }
+
+    public IEnumerator StopToPlayAnimation(int count)
+    {
+        yield return StartCoroutine(WaitForAnimation(count));
+        
+    }
+
+    public IEnumerator WaitForAnimation(int count)
+    {
+        if (count == 1)
+        {
+            breadImageHolder.transform.position = new Vector3(0f, 9.0f, 20f);
+            breadImageHolder.transform.Translate(new Vector3(0, -0.1f * Time.deltaTime, 0));
+        }
+        yield return null;
+
+    }
+
+
+    private IEnumerator PlayBreadJumpAnimation()
+    {
+        float time = 0.8f;
+        Vector3 startingPos = godImageHolder.transform.position;
+        Vector3 finalPos = new Vector3(-11.3100004f, 0.949999988f, 20f);
+        float elapsedTime = 0;
+        yield return StartCoroutine(SmoothLerp(time, startingPos, finalPos, elapsedTime, godImageHolder));
+
+        godImageHolder = god_smail;
+        godImageHolder.SetActive(true);
+        time = 2.5f;
+        startingPos = new Vector3(-11f, -1.7700001f, 10f);
+        finalPos = new Vector3(-3.3499999f, -1.7700001f, 10f);
+        yield return StartCoroutine(SmoothLerp(time, startingPos, finalPos, elapsedTime, godImageHolder));
+
+        yield return null;
+    }
+
+    private IEnumerator PlayFatherMoveAnimation()
+    {
+        float time = 0.3f;
+        Vector3 startingPos = fatherImageHolder.transform.position;
+        Vector3 finalPos = startingPos;
+        finalPos.y = -8.0f;
+        float elapsedTime = 0;
+        StartCoroutine(SmoothLerp(time, startingPos, finalPos, elapsedTime, fatherImageHolder));
+
+        time = 0.7f;
+        fatherImageHolder = father_normal;
+        fatherImageHolder.SetActive(true);
+        startingPos = new Vector3(0f, 9.0f, 10f);
+        finalPos = new Vector3(0f, -0.3f, 10f);
+        StartCoroutine(SmoothLerp(time, startingPos, finalPos, elapsedTime, fatherImageHolder));
+
+        Debug.Log("fatherImageHolder");
+        yield return null;
+    }
+
+    private IEnumerator PlayGuiltyAnimation()
+    {
+        float time = 0.5f;
+        Vector3 startingPos = breadImageHolder.transform.position;
+        Vector3 finalPos = new Vector3(0f, -8.0f, 20f);
+        float elapsedTime = 0;
+        yield return StartCoroutine(SmoothLerp(time, startingPos, finalPos, elapsedTime, breadImageHolder));
+
+        Color lightColor = stageSpotLight.GetComponent<SpriteRenderer>().color;
+        yield return StartCoroutine(PlayLightChangeAnimation(1.0f, 1f, 0f, lightColor, 0f, stageSpotLight));
+        stageSpotLight.SetActive(false);
+
+        yield return null;
+    }
+
+    private IEnumerator PlayNotGuiltyAnimation()
+    {
+        float time = 2.0f;
+        Vector3 startingPos = breadImageHolder.transform.position;
+        float y = breadImageHolder.transform.position.y;
+        Vector3 finalPos = new Vector3(11f, -1.1f, 20f);
+        finalPos.y = y;
+        float elapsedTime = 0;
+        StartCoroutine(SmoothLerp(time, startingPos, finalPos, elapsedTime, breadImageHolder));
+
+
+        Color lightColor = stageSpotLight.GetComponent<SpriteRenderer>().color;
+        yield return StartCoroutine(PlayLightChangeAnimation(1.0f, 1f, 0f, lightColor, 0f, stageSpotLight));
+        stageSpotLight.SetActive(false);
+        yield return null;
+
+    }
+
+    private IEnumerator PlayCrossiantEnterAnimation()
+    {
+        breadImageHolder.SetActive(true);
+        breadImageHolder = croissant_normal;
+        float time = 2.0f;
+        Vector3 startingPos = new Vector3(-11f, -1.1f, 20f);
+        Vector3 finalPos = new Vector3(0f, -1.1f, 20f);
+        float elapsedTime = 0;
+        yield return StartCoroutine(SmoothLerp(time, startingPos, finalPos, elapsedTime, breadImageHolder));
+
+        stageSpotLight.SetActive(true);
+        Color lightColor = stageSpotLight.GetComponent<SpriteRenderer>().color;
+        yield return StartCoroutine(PlayLightChangeAnimation(1.0f, 0f, 1f, lightColor, 0f, stageSpotLight));
+        yield return null;
+    }
+
+    private IEnumerator PlayBaguetteEnterAnimation()
+    {
+        breadImageHolder = baguette_normal;
+        breadImageHolder.SetActive(true);
+        float time = 2.0f;
+        Vector3 startingPos = new Vector3(-11f, -1.23f, 10f);
+        Vector3 finalPos = new Vector3(0f, -1.23f, 10f);
+        float elapsedTime = 0;
+        yield return StartCoroutine(SmoothLerp(time, startingPos, finalPos, elapsedTime, breadImageHolder));
+
+        stageSpotLight.SetActive(true);
+        Color lightColor = stageSpotLight.GetComponent<SpriteRenderer>().color;
+        yield return StartCoroutine(PlayLightChangeAnimation(1.0f, 0f, 1f, lightColor, 0f, stageSpotLight));
+        yield return null;
+    }
+
+    private IEnumerator PlayCiabattaEnterAnimation()
+    {
+        Debug.Log("PlayCiabattaEnterAnimation");
+        breadImageHolder = ciabatta_closeeye;
+        breadImageHolder.SetActive(true);
+        float time = 2.0f;
+        Vector3 startingPos = new Vector3(-11f, -0.93f, 10f);
+        Vector3 finalPos = new Vector3(0f, -0.93f, 10f);
+        float elapsedTime = 0;
+        yield return StartCoroutine(SmoothLerp(time, startingPos, finalPos, elapsedTime, breadImageHolder));
+
+        stageSpotLight.SetActive(true);
+        Color lightColor = stageSpotLight.GetComponent<SpriteRenderer>().color;
+        yield return StartCoroutine(PlayLightChangeAnimation(1.0f, 0f, 1f, lightColor, 0f, stageSpotLight));
+        yield return null;
+    }
+
+    private IEnumerator SmoothLerp(float time, Vector3 startingPos, Vector3 finalPos, float elapsedTime, GameObject holder)
+    {
+        while (elapsedTime < time)
+        {
+            holder.transform.position = Vector3.Lerp(startingPos, finalPos, (elapsedTime / time));
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+    }
+
+    private IEnumerator ReadyForSceneChange(GameObject scene)
+    {
+        scene.SetActive(true);
+        Text text = scene.GetComponentInChildren<Text>();
+        Color textColor = text.GetComponent<Text>().color;
+        Color sceneColor = scene.GetComponent<Image>().color;
+        float elapsedTime = 0f;
+        float totalTime = 0.7f;
+        float startAlpha = 0f;
+        float endAlpha = 0.8f;
+        yield return StartCoroutine(PlaySceneChangeAnimation(totalTime, startAlpha ,endAlpha , sceneColor, elapsedTime, scene, text, textColor));
+        startAlpha = 0.8f;
+        totalTime = 1.5f;
+        yield return StartCoroutine(PlaySceneChangeAnimation(totalTime, startAlpha, endAlpha, sceneColor, elapsedTime, scene, text, textColor));
+        startAlpha = 0.8f;
+        endAlpha = 0f;
+        totalTime = 1.0f;
+        yield return StartCoroutine(PlaySceneChangeAnimation(totalTime, startAlpha, endAlpha, sceneColor, elapsedTime, scene, text, textColor));
+        scene.SetActive(false);
+        yield return null;
+    }
+
+    private IEnumerator PlaySceneChangeAnimation(float totalTime, float startAlpha, float endAlpha, Color sceneColor, float elapsedTime, GameObject scene, Text text, Color textColor)
+    {
+        while (elapsedTime < totalTime)
+        {
+            sceneColor.a = Mathf.Lerp(startAlpha, endAlpha, elapsedTime / totalTime);
+            textColor.a = Mathf.Lerp(startAlpha, endAlpha, elapsedTime / totalTime);
+            elapsedTime += Time.deltaTime;
+            scene.GetComponent<Image>().color = sceneColor;
+            text.GetComponent<Text>().color = textColor;
+            yield return null;
+        }
+    }
+
+    private IEnumerator PlayLightChangeAnimation(float totalTime, float startAlpha, float endAlpha, Color sceneColor, float elapsedTime, GameObject scene)
+    {
+        while (elapsedTime < totalTime)
+        {
+            sceneColor.a = Mathf.Lerp(startAlpha, endAlpha, elapsedTime / totalTime);
+            Debug.Log("sceneColor.a: " + sceneColor.a);
+            elapsedTime += Time.deltaTime;
+            scene.GetComponent<SpriteRenderer>().color = sceneColor;
+            yield return null;
+        }
+    }
+
+    private IEnumerator PlayStoryAnimation(GameObject parentStory, int startOrEnd)
+    {
+        parentStory.SetActive(true);
+        List<GameObject> storyChildren = new List<GameObject>();
+        for (int i=0; i< parentStory.transform.childCount; i++)
+        {
+            storyChildren.Add(parentStory.transform.GetChild(i).gameObject);
+        }
+        switch (startOrEnd)
+        {
+            case 0:
+                yield return StartCoroutine(PlayEnterStoryAnimationForChildren(storyChildren));
+                break;
+            case 1:
+                yield return StartCoroutine(PlayExitStoryAnimationForChildren(storyChildren));
+                break;
+        }
+        yield return null;
+    }
+
+    private IEnumerator PlayEnterStoryAnimationForChildren(List<GameObject> storyChildren)
+    {
+        float totalTime = 2.0f;
+        float startAlpha = 0f;
+        float endAlpha = 1f;
+        float elapsedTime = 0f;
+
+        while (elapsedTime < totalTime)
+        {
+            for (int i = 0; i < storyChildren.Count; i++)
+            {
+                Color color = storyChildren[i].GetComponent<Image>().color;
+                color.a = Mathf.Lerp(startAlpha, endAlpha, elapsedTime / totalTime);
+                elapsedTime += Time.deltaTime;
+                storyChildren[i].GetComponent<Image>().color = color;
+            }
+            yield return null;
+        }
+    }
+
+    private IEnumerator PlayExitStoryAnimationForChildren(List<GameObject> storyChildren)
+    {
+        float totalTime = 2.0f;
+        float startAlpha = 1f;
+        float endAlpha = 0f;
+        float elapsedTime = 0f;
+
+        while (elapsedTime < totalTime)
+        {
+            for (int i = 0; i < storyChildren.Count; i++)
+            {
+                Color color = storyChildren[i].GetComponent<Image>().color;
+                color.a = Mathf.Lerp(startAlpha, endAlpha, elapsedTime / totalTime);
+                elapsedTime += Time.deltaTime;
+                storyChildren[i].GetComponent<Image>().color = color;
+            }
+            yield return null;
+        }
+    }
+
+
+    private IEnumerator CloseDialog()
+    {
+        yield return new WaitForSeconds(5);
+    }
+
+
+    public void AddStoriesToStoryDic()
+    {
+        storyDic.Add("story1", story1);
+        storyDic.Add("story2", story2);
+        storyDic.Add("story3", story3);
+        storyDic.Add("story4", story4);
     }
 }

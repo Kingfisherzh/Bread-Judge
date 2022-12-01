@@ -1,328 +1,328 @@
 字数	word_count	id	character	original	translation	great_next	next	choices	choice_num	animation	story	item_selectable	father_image	god_image	sinner_image	null
-0		1000	神	Bunbunbunbun！	Bunbunbunbun!		1001									null
-19		1001	神	你好，新来的审判长！欢迎来到我的面包审判厅！	Greetings, new presiding judge! Welcome to my Bread Court!			2000/	1							null
-3		1002	主角	你是谁？	Who are you?		1003									null
-15		1003	神	我是面包之神，掌管所有面包的神。	I’m the God of Bread and all bread is under my reign.			2001/	1							null
-13	0	1004	主角	难道是某一种飞天拉面教……	Sounds like some kind of Flying Ramen Monsterism... 		1005									null
-16	0	1005	神	和那种低级的碳水生物才没有关系啦！	What? We have absolutely nothing to do with that inferior carbohydrate creature!		1006									null
-6	0	1006	主角	面包之神……	The God of Bread... 		1007									null
-8	0	1007	神	没错，我的审判长。	That’s right, my presiding judge.		1008									null
-27	0	1008	神	你是不是很好奇，为什么你会被选为这间神圣的审判厅的审判长？	Let me guess. You are wondering why you were chosen to preside over this holy tribunal, aren't you?		1009									null
-4	0	1009	神	因为……	That is because... 		1010									null
-13	0	1010	神	你是这世界上最伟大的面包师！	You are the greatest baker in this world!		1011									null
-8	0	1011	神	也是最爱面包的人！	And the man who loves bread the most!		1012									null
-23	0	1012	神	我对于你有百分之百的信任，所以我要给予你此重任。	I have 100% confidence in you, so I’m giving you this responsibility.			2002/	1							null
-8	0	1013	主角	谢谢你的夸赞……	Thank you for the compliment... 		1014									null
-5	0	1014	神	嘿嘿，不客气！	Hehe, you’re welcome!		1015									null
-9	0	1015	神	好了，让我们回归正题！	All right, let’s get back to business!		1016									null
-16	0	1016	神	接下来，你要聆听一些坏面包的证词。	Now, you’re going to hear testimony from some bad bread.		1017									null
-11	0	1017	神	他们可能说得都很好听。	Their defense can be very persuasive.		1018									null
-9	0	1018	神	但不要被他们给骗了！	But don’t let them fool you!	1026		2003/2004	2							null
-8	0	1019	主角	坏面包是什么意思？	What do you mean by bad bread?		1020									null
-13	0	1020	神	他们都伤害过别的面包的心。	They have all broken the hearts of other bread.		1021									null
-15	0	1021	神	我作为面包之神实在是看不下去了！	And as the God of Bread, I cannot stand it any longer!											null
-5	0	1022	主角	他们的证词？	Their testimony?		1023									null
-14	0	1023	神	没错，面包们都会有自己的说辞。	Yes, all bread may tell their own stories to defend themselves.		1024									null
-18	0	1024	神	而你的任务便是找出他们说辞间的漏洞。	And your job is to pick holes in their defenses.		1025									null
-10	0	1025	神	毕竟……面包不住火呀！	After all, the truth will come to bread sooner or later!											null
-14	0	1026	神	我会复现出他们做坏事的时刻。	I’ll recreate the moment when they did bad things.		1027									null
-21	0	1027	神	你需要收集其中的信息，并在审判时刻亮出证据。	You need to collect clues and present the evidence at trial.		1028									null
-8	0	1028	神	来戳破他们的谎言！	... To expose their lies!		1030			scene1						null
-0	0															null
-11	0	1030	神	那么，让第一位罪人上来吧！	Ok, let's summon the first sinner to court!		1031			crossiant-enter						null
-14	0	1031	羊角包	这里是哪里？我怎么会在这里……	Where is this place? Why am I here?		1032									null
-13	0	1032	神	审判长，接下来我会使用能力展现过去。	Your Honor, now I’m going to use my power to reconstruct the past... 		1033									null
-17	0	1033	神	那是犯下罪证的时刻。	... and show the very moment of her committing sin.		1034									null
-10	0	1034	神	点击图上有放大镜的部分收集关键信息吧！	Tap the magnifier on the image to collect clues!		1035									null
-18	0	1035	神	让我发动能力……变变变变变！	Now let me use my power and... Abracadabra!		1036				story1					null
-10	0	1036	神	看来你收集完毕了呢。	I see you’ve collected those clues.		1037									null
-21	0	1037	神	接下来，你要使用这些关键信息对罪人提出质疑。	Next, you are going to make good use of those clues and wisely question the sinner.		1038									null
-5	0	1038	神	准备好了吗？	Are you ready?		1039									null
-12	0	1039	羊角包	你好……？我这是在哪里……？	Hey, how are you...? Where am I...?		1040									null
-11	0	1040	神	先来问清楚她的身份吧。	First thing, let’s find out who she is.	1068						1				null
-8	0	1041	主角	你是学校的老师吗？	Are you a school teacher?		1042									null
-7	0	1042	羊角包	是的，我叫丽莎。	Yes, my name is Lisa.		1043									null
-20	0	1043	羊角包	在本地小学执教数学科目，也身兼班主任一职。	I’m teaching mathematics at a local primary school and I also work as a class advisor.			2005/	1							null
-4	0	1044	羊角包	你又是谁？	who are you?		1045									null
-8	0	1045	主角	我是一名面包师。	I’m a baker... 			2006/	1							null
-12	0	1046	羊角包	呃……面包师找我有什么事？	Ah... So what can I do for a baker?		1047									null
-15	0	1047	主角	同时也是这间审判厅的审判长……	... And the presiding judge of this courtroom.		1048									null
-14	0	1048	主角	接下来我应该会对你进行审判。	I’m probably putting you on trial.		1049									null
-8	0	1049	神	大概是什么意思啦！	"Probably"?		1050									null
-7	0	1050	主角	咳咳，不用怀疑。	Ahem, actually yes, I am the presiding judge.		1051									null
-17	0	1051	主角	我就是审判长，接下来要对你进行审判。	And I will put you on trial.		1052									null
-13	0	1052	羊角包	审判？我犯了什么罪？需要上法庭？	A trial? What crime have I committed? That I have to be taken to court?		1053									null
-11	0	1053	主角	让我们来看关键证据吧。	Let’s look at the evidence.							2 3				null
-15	0	1054	主角	看起来你好像不受同学们欢迎呢。	Looks like you are not popular with your class.		1055									null
-13	0	1055	主角	前排的同学都怕你怕到哭了。	That kid in the front row was so scared of you that she was crying.		1056									null
-9	0	1056	羊角包	你说第一排的同学么？	Do you mean the girl sitting in the first row?		1057									null
-7	0	1057	羊角包	她数学考了59分。	She got a 59 in maths.		1058									null
-13	0	1058	羊角包	自己没考好委屈，要怪我身上吗？	She was upset that she didn't pass the exam, and you are blaming that on me?		1059									null
-6	0	1059	主角	平均分有多少？	What’s the average score?		1060									null
-2	0	1060	羊角包	80分。	80		1061									null
-10	0	1061	主角	你为什么不安慰一下她？	Why don’t you comfort and encourage her a little bit?		1062									null
-11	0	1062	羊角包	我们又不是什么快乐教育！	Come on. It’s not that we are doing the so-called happy education!		1063									null
-22	0	1063	羊角包	考砸了就该狠狠地哭，哭着反省自己为什么会考砸。	You'd better cry out loud when you flunked an exam, because that makes you reflect on why you have failed it.							TRUE				null
-12	0	1064	主角	你平时上课也是这副模样吗？	Do you always look like this in class?		1065									null
-12	0	1065	主角	这么凶巴巴地对着所有学生？	So mean and harsh?		1066									null
-13	0	1066	羊角包	当然不是，同学们可喜欢我了。	Of course not. Kids love me.		1067									null
-16	0	1067	羊角包	那次不过正好是数学考试出分罢了。	That time... it’s just the maths results happened to come out.							TRUE				null
-18	0	1068	羊角包	我不知道你是什么奇奇怪怪的审判长……	Look, I don’t know what kind of weird presiding judge you are... 		1069									null
-17	0	1069	羊角包	但很明显，你根本不了解我和我的学生。	But obviously, you don’t know a thing about me or my students.		1070									null
-21	0	1070	羊角包	你说的那个同学，她平时考试成绩并没有那么差。	That kid you mentioned, usually does a lot better in exams.		1071									null
-18	0	1071	羊角包	她很喜欢数学，下课后总会找我来问问题。	She loves maths and always comes to me after class to ask questions.		1072									null
-19	0	1072	羊角包	我很喜欢她这样的孩子，勤学、聪慧、好问。	She’s a studious, intelligent, and inquisitive kid. I like her very much.		1073									null
-22	0	1073	羊角包	突然考砸会哭再正常不过了，毕竟她也有自尊心呀。	It’s just normal to cry after she unexpectedly flopped an exam. After all, she has her own pride.		1074									null
-4	0	1074	羊角包	况且……	Besides... 		1075									null
-4	0	1075	主角	况且……？	Besides...?		1076									null
-15	0	1076	羊角包	再说下去就涉及我的学生隐私了。	I’m not going to expose my student's privacy.		1077									null
-18	0	1077	羊角包	我只能告诉你，她会考砸是因为心情不好。	All I can tell you is that she didn't do well because she was in a bad mood.		1078									null
-12	0	1078	神	好了，罪人的发言时间完毕。	All right, that’s all for this sinner.		1079									null
-10	1	1079	神	请审判长做出判决——	Presiding judge, please deliver your verdict—			2007/2008	1							null
-11	0	1080	主角	我觉得她没有什么错……	I don’t think there’s anything wrong with her... 		1081									null
-23	0	1081	主角	如果同她说的那样，学生是因为没有考好才哭的话……	If, as she said, the kid cried because she didn’t do well in the exam... 		1082									null
-18	0	1082	主角	这件事根本算不上是老师伤了学生的心。	It was not a matter of a teacher breaking a student’s heart.		1083									null
-15	0	1083	主角	况且她也很关心那名学生的样子。	Besides, it looks like she is quite concerned about that student.		1084									null
-11	0	1084	主角	我认为她应该无罪释放。	I think she should be acquitted.		1088									null
-24	0	1085	主角	身为老师却没有对学生最基本的一点同理心，有失师德。	As a teacher, she has not any empathy that she is supposed to have as a minimum ethical requirement for her profession, and has broken an innocent student's heart.		1086									null
-10	0	1086	主角	她犯下的错无法弥补。	Her inappropriate conduct has led to irreversible consequences.		1087									null
-8	0	1087	主角	因此我认定她有罪！	Hence I find her guilty!		1103			croissant-guilty						null
-20	0	1088	羊角包	我无罪了？这奇奇怪怪的审判厅到底怎么回事。	I’m not guilty? What is wrong with this weird courtroom?		1089									null
-13	0	1089	羊角包	看我不去找教育局投诉你们。	I’m absolutely going to make a complaint to the school board!		1090			croissant-not-guilty						null
-2	0	1090	神	……	... 		1091									null
-10	0	1091	神	你怎么把罪人给放走了！	You let the sinner walk away!		1092									null
-10	0	1092	神	你觉得她一点也没错吗？	You seriously think she has done nothing wrong?		1093									null
-3	0	1093	主角	嗯……	Well, yes... 		1094									null
-11	0	1094	主角	理由就和我说的那样……	Because... 			2009/2010/2011	1							null
-7	0	1095	神	原来你这样想。	So that’s what you think.		1096									null
-12	0	1096	主角	面包之神，你又是怎么想的呢？	Then, God of Bread, what do you think?		1097									null
-3	0	1097	神	我……	I... 		1098									null
-12	0	1098	神	你怎么可以问神这个问题呢！	H-hey! How can you ask a god a question like this!		1099									null
-17	0	1099	神	神是全知全能的，告诉了你不就剧透了么！	God is omniscient and omnipotent, you know, and telling you the answer is spoiling the plot!		1100									null
-19	0	1100	神	你才是审判长，要由你来倾听、发现、判决。	You are the presiding judge, so it's up to you to listen, discover, and judge.		1101									null
-16	0	1101	神	但你第一次做审判，不懂也很正常啦。	But this is your first trial, so it’s natural you didn’t do it perfectly.		1102									null
-7	0	1102	神	下一次好好表现！	Try to do better next time!		1111			scene2						null
-13	0	1103	神	审判长，为什么你会认为她有罪？	Presiding judge, why do you think she’s guilty?		1104									null
-24	0	1104	主角	我不能原谅一名老师面对眼前流泪的学生感到无动于衷！	I can’t forgive a teacher for feeling indifferent to a tearful student!		1105									null
-22	0	1105	主角	如果我是那名老师的话，我会想要保护好那个孩子。	If I were her, I’d want to protect that kid as best as I could.		1106									null
-17	0	1106	主角	至少在那一刻，给她一些最基本的安慰。	At least give her the basic comfort she needed at that particular moment.		1107									null
-11	0	1107	神	没关系，我相信你的判断。	That’s all right. I trust your judgment.		1108									null
-19	0	1108	神	你是审判长，应该由你来倾听、发现、判决。	You are the presiding judge. It is up to you to listen, discover, and judge.		1111			scene2						null
-																null
-																null
-15		1111	神	好了，那让我们请出第二位罪人——	All right, let’s bring the second sinner to court—		1112			baguette-enter						null
-10		1112	法棍	哇这里是哪里！你又是谁？	Oh god, where am I? And who are you?		1113									null
-18		1113	神	这次就由你来主导审判了。审判长，加油吧！	This time, you’ll be leading the trial. Come on, judge!		1114									null
-23		1114	主角	这里是面包之神的审判厅。我是负责事件的审判长。	This is the courtroom of the God of Bread. I’m the presiding judge in charge.		1115									null
-14		1115	法棍	啊？审判厅……我什么都没做错啊！	Huh? Courtroom?... I-I didn’t do anything wrong!		1116									null
-13		1116	法棍	我不要被判刑，不要啊呜呜呜。	I’m not going to jail! NO!! Waah waah... 	1122		2013/2014	2							null
-11		1117	主角	先别急，这不由你来决定。	Calm down. It’s not up to you.		1118									null
-12		1118	主角	我们需要先回顾你的案情。	We need to review your case first.		1119									null
-4		1119	法棍	好吧……	All right then... 											null
-12		1120	主角	看你这副模样，明显心里有鬼！	Judging from your reaction, it looks like you ARE actually hiding something!		1121									null
-11		1121	法棍	不是不是不是！我只是害怕！	No no no! I’m just scared!											null
-12		1122	神	越来越有审判官的模样了嘛！	Look at you! You are growing into a real judge now!		1123									null
-9		1123	神	那么……变变变变变！	Ok then... Abracadabra!!		1124				story2					null
-12		1124	神	这次就交给你自由审问了。	This time, I’ll leave it all to you.	1145						TRUE				null
-11		1125	主角	地上有什么东西打碎了吗？	Is there anything smashed on the floor?		1126									null
-17		1126	法棍	是很脆的曲奇。所以才一摔就碎了……	It’s a crunchy cookie. That’s why it just shattered when it dropped... 		1127									null
-6		1127	主角	是你摔碎的吗？	Did you drop it?		1128									null
-7		1128	法棍	不、不是我！……	N-no!... 											null
-15		1129	主角	你知道那个袋子是用来做什么的吗？	Do you know what that bag is for?		1130									null
-7		1130	法棍	用来装曲奇的。	It’s for the cookies.		1131									null
-12		1131	主角	袋子本身有什么特别之处吗？	Is there anything special about the bag itself?		1132									null
-11		1132	法棍	上面有绑一个蝴蝶结……	It’s got a bow on it... 											null
-22		1133	主角	你看你眼前的人都快哭出来了，你是不是在欺负别人！	Looks like this poor girl in front of you was almost crying. Were you bullying her?!		1134									null
-5		1134	法棍	不、不是的！	No, it’s not like that!		1135									null
-17		1135	法棍	我只是想尝一尝曲奇……没想到就……	I just wanted to taste the cookies... I-I didn’t mean to... 		1136									null
-6		1136	主角	把话说清楚。	Let’s get this straight.		1137									null
-26		1137	法棍	嗯……那些曲奇是我朋友亲手做的，所以我才想问它尝一块。	Well... my friend made those cookies, so I thought it’d be nice if I could have a bite.		1138									null
-13		1138	主角	所以，拿着曲奇的人是你的朋友？	So, that girl with the cookies is your friend?		1139									null
-11		1139	法棍	是的。她是我最好的朋友！	Yes. She is my best friend!		1140									null
-13		1140	法棍	唔……但可能是过去时了……	Emm... maybe "was" ... 		1141									null
-13		1141	法棍	我不知道她有没有原谅我……	I don’t know if she’s forgiven me yet... 		1142									null
-11		1142	主角	你的意思是这是一场意外？	Are you saying it was an accident?		1143									null
-14		1143	法棍	是我太冲动了……缠着她想吃。	I was too pushy... I kept pestering her for the cookies.		1144									null
-23		1144	法棍	结果因为蝴蝶结没有系牢，曲奇就从袋子里掉了出来。	I didn't notice the bow was not fastened, and the next thing I knew, the cookie fell out of the bag... 											null
-21		1145	神	好了，犯人的发言时间完毕，请审判官做出判决——	All right, time’s up for the sinner’s presentation. Please make a verdict, Your Honor—			2015/2016	1							null
-7		1146	主角	很明显她没有错！	It’s obvious she did nothing wrong!		1147									null
-33		1147	主角	这件事情没有什么疑点。只要她说的话是真的，那么这就是一场单纯的意外。	There’s nothing suspicious about this case. As long as she was telling the truth, this was simply an unfortunate accident.		1148									null
-11		1148	法棍	呜呜呜谢谢你愿意相信我	Thank you for trusting me... (sob sob)... 		1149									null
-23		1149	法棍	其实……那袋曲奇是我朋友要送给重要的人的礼物。	Actually... that bag of cookies? It was a gift from my friend to someone who's very important to her.		1150									null
-10		1150	法棍	是我不好，非吵着要吃。	It’s my fault for keep asking for it.		1151									null
-11		1151	主角	说到底这依然是一场意外！	After all, it was still an accident!		1152									null
-12		1152	主角	况且你也已经知道错误了。	Besides, you already know your mistake.		1153									null
-10		1153	主角	所以，我认为你应当无罪！	So, I think you are not guilty!		1162			baguette_not_guilty						null
-13		1154	主角	这件事你有不可推卸的责任。	You have an unshirkable responsibility for this matter.		1155									null
-8		1155	主角	我在此宣布你有罪！	I hereby declare you guilty!		1156									null
-11		1156	主角	俗话说得好，冲动是魔鬼。	As the saying goes, impulse is the devil.		1157									null
-28		1157	主角	即便不是主观犯罪，你的行为客观上确实导致你朋友摔碎了曲奇。	Even if you didn’t mean to commit a crime, your actions did ruin your friend's cookies.		1158									null
-23		1158	法棍	其实……我朋友本来打算把那袋曲奇送给重要的人。	Actually, my friend was going to give that bag of cookies to someone who’s very important to her.		1159									null
-10		1159	法棍	是我不好，非吵着要吃。	It’s my fault for keep asking for it.		1160									null
-17		1160	法棍	既然你也已经承认了，我在此宣布你有罪！	Now that you have confessed, I hereby declare you guilty!		1161									null
-10		1161	法棍	怎么这样呜呜呜呜…… 	Oh god... waah... 		1162			baguette_guilty						null
-11		1162	神	这样就又结束一桩案件啦！	Another case solved!		1163									null
-8		1163	主角	你怎么看待这件事？	What do you think of this?		1164									null
-8		1164	神	我可是面包之神。	I’m the God of Bread.		1165									null
-24		1165	神	我能做的就是展现给你当时的场景，然后交给你来判断。	All I can do is show you what happened, and leave it to you to decide.		1166									null
-14		1166	神	所以我是不会发表多余的意见的！	So I’m not going to give any unnecessary opinions!		1167									null
-23		1167	主角	我觉得……这些案子没有严重到需要审判的地步……	Actually... I don’t think these cases are serious enough to warrant a trial.		1168									null
-7		1168	神	你真的这么想吗？	Do you really think so?		1169									null
-15		1169	神	那我来问问你，审判长的职责是什么？	Then let me ask you, what do you think is the duty of a presiding judge?			2018/2019/2020	1							null
-4		1170	神	你说得对！	Right to the point!		1171									null
-15		1171	神	所以，选什么案件可不由你来决定哦！	So, it’s not up to you to decide what cases are to be brought to court.		1172									null
-12		1172	主角	被定罪的面包之后会怎么样？	What happens to the condemned bread?		1173									null
-11		1173	神	被打入十八层三明治地狱！	They are to be banished to the Eighteen Levels of Sandwich Hell!		1174									null
-19		1174	主角	十八层三明治究竟是五十四层还是三十六层！？	And how many levels does an 18-level Sandwich Hell have exactly?! 54? 36?		1175									null
-9		1175	神	吐槽的点不对啦——	I think your comment is way off the point... 		1177			scene3						null
-0																null
-12		1177	神	那么，我们带上下一位罪人吧！	Never mind! Let’s bring up the next sinner!		1178									null
-9		1178	拖鞋包	哈欠……这里是哪里？	Yawn... where is this place?	1184		2021/2022	2	ciabatta-enter						null
-15		1179	拖鞋包	我在街角开杂货铺，叫我杰森就好。	I’m running a corner store. Call me Jason.											null
-6		1180	拖鞋包	为什我要紧张？	Why should I be nervous?		1181									null
-15		1181	拖鞋包	难不成这里是什么消费者投诉协会？	What? Is this some kind of consumer protection agency or something?		1182									null
-16		1182	拖鞋包	倒是你的黑眼圈好像有点重，没睡好吗？	But hey, your dark circles seem a little heavy. Didn’t you sleep well?		1183									null
-2		1183	主角	……	... 											null
-26		1184	主角	这里是面包之神的审判厅。接下来我将负责对你进行审判。	This is the courtroom of the God of Bread. I’m going to be in charge of your trial.		1185									null
-12		1185	拖鞋包	审判？真是让人摸不着头脑。	A trial? I’m confused.		1186									null
-12		1186	主角	没关系，我们直接看证据吧。	That’s all right. Let’s just go straight to the evidence.		1187									null
-10		1187	神	好咧。变变变变变——	Okay. Abracadabra—		1326				story3					null
-9		1188	神	准备好开始审问了吗？	Are you ready to begin the trial?	1210						TRUE				null
-																
-13		1189	主角	你除了卖吃的喝的，还卖小卡片？	I see that you’re selling food and drinks... as well as small cards?		1190									null
-12		1190	拖鞋包	小卡片？我可不做那种生意。	Small cards? I’m not in that business.		1191									null
-15		1191	主角	我的意思不是那种小卡片！严肃一点！	I don’t mean those sexy little cards stuffed in the crack of a hostel door! Be serious!		1192									null
-17		1192	主角	上面画着图案的卡片，你知不知道些什么？	The cards with pictures on them. Do you know anything about them?		1193									null
-14		1193	拖鞋包	噢……我知道你说的是什么了。	Oh, I know what you’re talking about.		1194									null
-18		1194	拖鞋包	你想说的是布丁英雄传的收集小卡片，对吧？	You mean the Pudding Outlaws of the Marsh trading cards, don't you?		1195									null
-7		1195	主角	收集小卡片……？	Trading cards...?		1196									null
-15		1196	拖鞋包	每买一杯布丁就随赠一张小卡片。	Every cup of pudding you bought comes with a random small card from the collection.		1197									null
-9		1197	主角	款式随机，总共有80款。	There are 80 different cards in total.		1198									null
-15		1198	主角	这么多款还要随机……！太奸商了吧！	80 different cards and comes random...! What a profiteer!		1199									null
-12		1199	拖鞋包	又不是我设计的！不能怪我吧？	I didn’t design it! Can you blame me?		1200									null
-21		1200	拖鞋包	话说回来，现在的小朋友们特别喜欢搞这种收集。	Anyway, kids these days are really fond of collecting such things.		1201									null
-8		1201	拖鞋包	布丁倒是其次了。	That makes pudding fall to second place.		1202									null
-17		1202	拖鞋包	大人们喜欢这种的也不少，谁不爱收集呢！	And many adults love collecting, too. Well, who doesn't?											null
-21		1203	主角	看货架上的东西，你们杂货铺卖的品种挺多的样子？	Looking at your shelves, it looks like your grocery store sells quite a variety of things?		1204									null
-16		1204	拖鞋包	那当然，这附近的人都来我这买东西。	Yeah, the neighborhoods always come to my store.		1205									null
-14		1205	主角	你有没有过把烟酒卖给未成年人？	Have you ever sold cigarettes or alcohol to minors?		1206									null
-4		1206	拖鞋包	别扣帽子！	Don't try to put that label on me!		1207									null
-15		1207	拖鞋包	没做过的事就是没做过，良心作证。	I didn't, it's true. I can promise by my conscience.											null
-8		1208	主角	你有抽烟的习惯吗？	Do you smoke?		1209									null
-20		1209	拖鞋包	嗯……总得打发下时间，店里一坐就是一整天。	Uhh... Sitting in the store all day long, you will gonna need some time killer.											null
-6		1210	主角	我明白了……	I see... 	1230		2027/2028	2							null
-15		1211	主角	你抽烟抽得太厉害，把顾客都熏哭了！	You smoked too much and made your customer's eyes water! 		1212									null
-8		1212	拖鞋包	欲加之罪何患无辞！	Go ahead, keep framing me however you want!		1213									null
-5		1213	主角	这就是事实！	That is the truth!		1214									null
-16		1214	主角	顾客应当是上帝，你却对着上帝抽香烟！	The customer is God, and you dare to smoke in front of God!		1215									null
-6		1215	主角	天哪！不可饶恕！！！	Oh my god! That's unforgivable!!!		1216									null
-11		1216	主角	开了个玩笑，不好意思……	Just kidding, sorry... 		1217									null
-2		1217	拖鞋包	……	... 											null
-16		1218	主角	那位顾客是不是没有抽到想要的卡片？	The customer didn't get the card she wanted, right?		1219									null
-9		1219	拖鞋包	你反应挺快嘛，没错。	What a quick reaction. Yes, you're right.		1220									null
-22		1220	拖鞋包	我记得那个小姑娘想要一张带黑条纹的黄布丁卡。	I remember that the little girl wanted a yellow pudding card with black stripes on it.		1221									null
-5		1221	主角	结果没抽到？	And she couldn't get one?		1222									null
-15		1222	拖鞋包	她已经集齐79张了，就差最后这一张。	She already collected all of the other 79 cards. It's the last one that she didn't have.		1223									null
-14		1223	拖鞋包	可惜愣是买了好多次也没出现。	Unfortunately, despite her multiple pudding purchases. That card just never shows up.		1224									null
-11		1224	拖鞋包	我真是想帮忙也帮不上。	I can't help with that.		1225									null
-7		1225	主角	她是你的常客吗？	Is she a regular customer?		1226									null
-12		1226	拖鞋包	哈哈，她放学后总来我这玩。	Haha, she always came to play around after school.		1227									null
-21		1227	拖鞋包	平时我儿子也会和她一起，但那天正好只有我在。	Usually, my son would keep her company, but on that day, I was the only one there.		1228									null
-19		1228	拖鞋包	先说好，我可不是特意在小孩子面前抽烟的。	To be clear, I didn't mean to smoke in front of a kid.		1229									null
-7		1229	拖鞋包	后面我就掐掉了！	I stubbed out the cigarette later!											null
-6		1230	主角	我有结论了。	I have made my conclusion.			2029/2030	1							null
-23		1231	主角	在未成年人面前抽烟，不管有意无意，已经是重大过错了！	Smoking in front of a minor, whether intentionally or not, is a serious mistake!		1232			ciabatta_guilty						null
-8		1232	主角	我在此认定你有罪！	I hereby declare you guilty!		1244									null
-16		1233	主角	怎么看你都没什么错！好了，你没事了。	I think you did nothing wrong. Well, you're all right now!		1234									null
-8		1234	主角	我在此宣布你无罪！	I hereby acquit you!		1235			ciabatta_not_guilty						null
-13		1235	主角	这次的审判……我做得不错吧？	This trial... I did a good job, didn't I?		1236									null
-11		1236	神	没有放过一个细节，很认真！	Never miss a single detail. Well done!		1237									null
-16		1237	神	对啦，你有没有过收集某种东西的经验？	By the way, do you have any experience with collecting things?		1238									null
-14		1238	主角	硬要说的话，我收集过面包模具。	I used to collect baking molds, if that counts.		1239									null
-22		1239	主角	从北欧到中东，各式各样的面包模具，大概有上百种。	From Northern Europe to the Middle East, various kinds of baking molds, like about a hundred.		1240									null
-10		1240	神	这些模具，你都有用过吗？	Have you used all of them?		1241									null
-10		1241	主角	大部分至少用过一次。	Most of them have been used at least once.		1242									null
-20		1242	主角	但真的每天用来做面包的，其实只有一小部分。	But speaking of every day, only a small part of them are used.		1243									null
-17		1243	主角	毕竟日常吃的面包的品种比较有限呢。	After all, the variety of daily bread is relatively limited.		1244									null
-11		1244	神	你很注重保护未成年呢。	And you seem to care a lot about minors.		1245									null
-16		1245	主角	嗯……毕竟我们家也有个小女儿……	Yeah... I have a young daughter at home too, you see... 		1246									null
-16		1246	主角	一不小心就会代入到爸爸的角色里。	It's hard not to slip into the character of a father.		1247									null
-8		1247	神	你会保护欲过剩吗？	Like being overprotective?		1248									null
-13		1248	主角	我想说是的，但可能看不出吧。	I would say yes. But I probably didn't show it.		1249									null
-13		1249	主角	我每天都围在面包坊里转……	I buzz around the bakery every single day... 		1250									null
-19		1250	主角	上下午两批面包，等忙完了就到晚饭时间了。	Two batches of bread, one in the morning, another in the afternoon. When all the work gets done, it will be dinner time.		1251									null
-24		1251	主角	不得不让女儿一个人回家，我心里一直觉得很对不起她。	I always feel sorry for my girl that I have to let her come home alone.		1252									null
-15		1252	主角	啊……抱歉让你听到些有的没的。	Oh... Apologies for dragging you into this pointless chatter.		1253									null
-11		1253	主角	我们继续审下一个案子吧？	Shall we go on to the next case?		1255			scene4						null
-																null
-15		1255	神	终于，轮到了我们的最后一位罪人。	Finally, it's time for our last sinner.		1256									null
-14		1256	主角	这就到最后了吗，时间过得好快。	Already the last one? Time flies.		1257			father_enter						null
-4		1257	主角	我是罪人？	I am the sinner?		1258									null
-12		1258	神	没错，你是罪人，也是审判长。	Yes, you are both the sinner and the presiding judge.			2031/2032	1							null
-10		1259	神	审判长……先不用急。	Presiding judge... don't be worried.		1260									null
-13		1260	神	我们来一起回顾一下案情吧。	Let's review the case together first.		1261				story4					null
-9		1261	主角	真是熟悉的场景……	The place is familiar to me... 	1271						TRUE				null
-14		1262	主角	这个地方是我们家的面包坊……	That's my bakery... 		1263									null
-15		1263	主角	我一个人包揽了里里外外的事务。	I handle all the work in and out by myself.		1264									null
-11		1264	主角	这是今天下午的场景吧。	I think that's this afternoon.		1265									null
-25		1265	主角	因为明天就是感恩节了，今天来买面包的客人格外之多……	I got a lot more customers than usual because tomorrow will be Thanksgiving Day... 		1266									null
-16		1266	主角	平时每天都只要做两批面包就好了。	Normally, I only need to make two batches of bread everyday.		1267									null
-14		1267	主角	但今天傍晚还额外加烤了一批。	But I baked an extra batch at dusk today.		1268									null
-9		1268	主角	实在是忙得团团转。	I was literally bustling around.											null
-13		1269	主角	我对这瓶幸运星没有印象……	I have no idea of that lucky star bottle... 		1270									null
-11		1270	主角	是哪一位顾客带进来的吗？	Perhaps one of the customers brought it there?											null
-14		1271	主角	所以这次是我做错了什么事情吗？	Then, I am the one who did something wrong this time?		1272									null
-5		1272	神	嗯。没错。	Mhm, yes.		1273									null
-16		1273	神	但好像你还没有意识到发生了什么。	But it seems like you still don't know what happened.		1274									null
-10		1274	神	让我来给你几个提示吧？	Let me give you some hints.	1283		2033/2034/2035	3							null
-11		1275	主角	我叫约翰，今年三十二岁。	My name is John, 32 years old.											null
-10		1276	主角	我经营着一家面包坊。	I run a bakery.		1277									null
-12		1277	主角	因为手艺好，店里生意红火。	Because I am a good baker,  my bakery is doing very well.		1278									null
-17		1278	主角	平时每天三点就要起床为开店做准备。	Usually, I get up at 3 a.m. and start to prepare for opening up every day...		1279									null
-9		1279	主角	中午会小歇一会儿。	...and take a break at lunchtime.		1280									null
-18		1280	主角	晚上八点左右就要睡下，为第二天做准备。	And go to bed at around 8 p.m. for the next day's sake.											null
-13		1281	主角	我有一个女儿，现在在读小学。	I have a daughter who is in primary school now.		1282									null
-20		1282	主角	我和前妻离婚了，所以一直是我一个人在带她。	I have been raising her on my own since I divorced my ex-wife.											null
-22		1283	神	每一年的感恩节前夕，你总是为了面包坊忙进忙出。	Every Thanksgiving Eve, you're always busy around the bakery.		1284									null
-17		1284	神	你的面包为每个人带来了幸福，可是……	Your bread brings happiness to everyone else, but... 		1285									null
-22		1285	神	你却总是忙到顾不得自己，甚至顾不到最爱你的人。	You are always too busy to consider yourself, or even the person who loves you the most.		1286									null
-19		1286	神	那瓶幸运星是你的女儿给你的感恩节礼物。	That lucky star bottle was from your daughter, a Thanksgiving gift for you.  	1297		2036/2037	2							null
-11		1287	主角	我真的不知道会是这样。	I didn't realize that at all.		1288									null
-16		1288	主角	那天我累到一打烊就躺床上休息了。	That day I was so tired that I went straight to bed as soon as closed.		1289									null
-12		1289	主角	没能和艾莉丝一起吃晚饭。	Couldn't have dinner with Alice.		1290									null
-8		1290	主角	是我对不起她……	I owe her a lot... 		1291									null
-24		1291	主角	打理面包坊太辛苦了，我没抽出足够的时间陪她在一起。	Managing a bakery is exhausting, and I couldn't spend enough time with her.											null
-18		1292	主角	前面的那些判决，是不是也是艾莉丝的记忆？	Those sentences before, are they also Alice's memories?		1293									null
-15		1293	神	没错，是她生活中发生的点点滴滴。	Yeah, those are all the little drops of her daily life.		1294									null
-17		1294	主角	原来……她有这么多事情没告诉过我。	So... there are so many things she didn't tell me.		1295									null
-17		1295	主角	是我不好……让她受了这么多不开心。	It's my fault... she suffered from plenty of unpleasantness.		1296									null
-12		1296	主角	还不能和最亲的亲人倾诉。	And couldn't talk to her closest family.											null
-12		1297	神	那么，请审判官做出判断吧。	Then, let the judge make his decision.			2038/	1							null
-5		1298	主角	我有罪……	I am guilty... 		1299									null
-12		1299	主角	只是……面包之神大人……	It's just that... the great God of Bread... 		1300									null
-14		1300	主角	我想今后开始好好照顾艾莉丝。	From now on, I want to take good care of Alice. 		1301									null
-15		1301	主角	我想和她分享生活中的喜怒哀乐。	I want to share every kind of emotion in life with her,  no matter whether that would be pleasure or anger, sorrow or joy.		1302									null
-11		1302	主角	我想参与她的成长过程。	I want to take part in her growth.		1303									null
-18		1303	主角	我不想再让她下课后总是一个人回家了。	And I don't want her to come home alone after school again.		1304									null
-19		1304	主角	我想和她每天都能吃上一顿热腾腾的餐饭。	I want to enjoy a hot meal with her every day.		1305									null
-9		1305	主角	面包之神，拜托你了。	Please, the God of Bread.		1306									null
-15		1306	主角	希望你能再给我一次赎罪的机会。	Please give me one more chance to atone for my sins.		1307			bread_jump						null
-8		1307	神	你真的是太迟钝了！	You are such a numbskull!		1308									null
-7		1308	神	现在才开始后悔！	Only start to regret it now!		1309									null
-8		1309	主角	你是……艾莉丝吗？	Are you... Alice?		1310									null
-23		1310	神	我不是你的女儿，但我是她的潜意识化成的梦境主宰。	I am not your daughter, but the dream master that transformed from her subconscious.	1320		2039/2040	2							null
-16		1311	主角	那些回忆……是她想要展示给我看吗？	Those memories... are the ones she wants to show me?		1312									null
-22		1312	神	不是这样的，她可能已经忘记了那些不开心的瞬间。	Not like that, she might have already forgotten those unpleasant moments.		1313									null
-11		1313	神	但是我帮她保存了下来。	But I kept them for her.		1314									null
-18		1314	神	她太懂事了，知道你辛苦，所以没有告诉你。	She is just too sensible to talk about those sorts of things because she knows you work so hard.		1315									null
-11		1315	神	所以只能由我来代劳了。	That's why I have to take over this job.											null
-15		1316	主角	所以说审判的结果也不会影响到谁？	So those sentences won't affect anybody?		1317									null
-11		1317	神	没错。毕竟这里是梦境。	Yes. After all, this is only a dream.		1318									null
-22		1318	神	我只是想让你去多了解一下她经历过的那些事情。	I just want you to learn more about what she has been through.		1319									null
-18		1319	神	让不靠谱的爸爸更多了解一些他的女儿。	Let the unreliable father learn more about his daughter.											null
-16		1320	神	那么，你应该明白接下来要做什么了吧？	So, I presume you know what to do next?		1321									null
-10		1321	主角	谢谢你……面包之神。	Thank you... the God of Bread.		1322									null
-4		1322	神	不客气。	No problem.		1323									null
-10		1323	神	因为，我已经说过了……	As I said before... 		1324									null
-11		1324	神	我对你有百分之百的信任！	I have 100% confidence in you！		1325									null
-2		1326	主角	看起来确实是一家杂货铺……	It does seem to be a corner store...		1188									null
+0		1000	神	Bunbunbunbun！	Bunbunbunbun!		1001						father_00	god_00		null
+19		1001	神	你好，新来的审判长！欢迎来到我的面包审判厅！	Greetings, new presiding judge! Welcome to my Bread Court!			2000/	1				father_00	god_00		null
+3		1002	主角	你是谁？	Who are you?		1003						father_00	god_00		null
+15		1003	神	我是面包之神，掌管所有面包的神。	I’m the God of Bread and all bread is under my reign.			2001/	1				father_00	god_00		null
+13	0	1004	主角	难道是某一种飞天拉面教……	Sounds like some kind of Flying Ramen Monsterism... 		1005						father_00	god_00		null
+16	0	1005	神	和那种低级的碳水生物才没有关系啦！	What? We have absolutely nothing to do with that inferior carbohydrate creature!		1006						father_00	god_00		null
+6	0	1006	主角	面包之神……	The God of Bread... 		1007						father_00	god_00		null
+8	0	1007	神	没错，我的审判长。	That’s right, my presiding judge.		1008						father_00	god_00		null
+27	0	1008	神	你是不是很好奇，为什么你会被选为这间神圣的审判厅的审判长？	Let me guess. You are wondering why you were chosen to preside over this holy tribunal, aren't you?		1009						father_00	god_00		null
+4	0	1009	神	因为……	That is because... 		1010						father_00	god_00		null
+13	0	1010	神	你是这世界上最伟大的面包师！	You are the greatest baker in this world!		1011						father_00	god_00		null
+8	0	1011	神	也是最爱面包的人！	And the man who loves bread the most!		1012						father_00	god_00		null
+23	0	1012	神	我对于你有百分之百的信任，所以我要给予你此重任。	I have 100% confidence in you, so I’m giving you this responsibility.			2002/	1				father_00	god_00		null
+8	0	1013	主角	谢谢你的夸赞……	Thank you for the compliment... 		1014						father_00	god_00		null
+5	0	1014	神	嘿嘿，不客气！	Hehe, you’re welcome!		1015						father_00	god_00		null
+9	0	1015	神	好了，让我们回归正题！	All right, let’s get back to business!		1016						father_00	god_00		null
+16	0	1016	神	接下来，你要聆听一些坏面包的证词。	Now, you’re going to hear testimony from some bad bread.		1017						father_00	god_00		null
+11	0	1017	神	他们可能说得都很好听。	Their defense can be very persuasive.		1018						father_00	god_00		null
+9	0	1018	神	但不要被他们给骗了！	But don’t let them fool you!	1026		2003/2004	2				father_00	god_00		null
+8	0	1019	主角	坏面包是什么意思？	What do you mean by bad bread?		1020						father_00	god_00		null
+13	0	1020	神	他们都伤害过别的面包的心。	They have all broken the hearts of other bread.		1021						father_00	god_00		null
+15	0	1021	神	我作为面包之神实在是看不下去了！	And as the God of Bread, I cannot stand it any longer!								father_00	god_00		null
+5	0	1022	主角	他们的证词？	Their testimony?		1023						father_00	god_00		null
+14	0	1023	神	没错，面包们都会有自己的说辞。	Yes, all bread may tell their own stories to defend themselves.		1024						father_00	god_00		null
+18	0	1024	神	而你的任务便是找出他们说辞间的漏洞。	And your job is to pick holes in their defenses.		1025						father_00	god_00		null
+10	0	1025	神	毕竟……面包不住火呀！	After all, the truth will come to bread sooner or later!								father_00	god_00		null
+14	0	1026	神	我会复现出他们做坏事的时刻。	I’ll recreate the moment when they did bad things.		1027						father_00	god_00		null
+21	0	1027	神	你需要收集其中的信息，并在审判时刻亮出证据。	You need to collect clues and present the evidence at trial.		1028						father_00	god_00		null
+8	0	1028	神	来戳破他们的谎言！	... To expose their lies!		1030			scene			father_00	god_00		null
+0	0												father_00	god_00		null
+11	0	1030	神	那么，让第一位罪人上来吧！	Ok, let's summon the first sinner to court!		1031			crossiant-enter			father_00	god_00	croissant_normal	null
+14	0	1031	羊角包	这里是哪里？我怎么会在这里……	Where is this place? Why am I here?		1032						father_00	god_00	croissant_cerious	null
+13	0	1032	神	审判长，接下来我会使用能力展现过去。	Your Honor, now I’m going to use my power to reconstruct the past... 		1033						father_00	god_00	croissant_normal	null
+17	0	1033	神	那是犯下罪证的时刻。	... and show the very moment of her committing sin.		1034						father_00	god_00	croissant_normal	null
+10	0	1034	神	点击图上有放大镜的部分收集关键信息吧！	Tap the magnifier on the image to collect clues!		1035						father_00	god_00	croissant_normal	null
+18	0	1035	神	让我发动能力……变变变变变！	Now let me use my power and... Abracadabra!		1036				story1		father_00	god_00	croissant_normal	null
+10	0	1036	神	看来你收集完毕了呢。	I see you’ve collected those clues.		1037						father_00	god_00	croissant_normal	null
+21	0	1037	神	接下来，你要使用这些关键信息对罪人提出质疑。	Next, you are going to make good use of those clues and wisely question the sinner.		1038						father_00	god_00	croissant_normal	null
+5	0	1038	神	准备好了吗？	Are you ready?		1039						father_00	god_00	croissant_normal	null
+12	0	1039	羊角包	你好……？我这是在哪里……？	Hey, how are you...? Where am I...?		1040						father_00	god_00	croissant_cerious	null
+11	0	1040	神	先来问清楚她的身份吧。	First thing, let’s find out who she is.	1068						1	father_00	god_00	croissant_normal	null
+8	0	1041	主角	你是学校的老师吗？	Are you a school teacher?		1042						father_00	god_00	croissant_normal	null
+7	0	1042	羊角包	是的，我叫丽莎。	Yes, my name is Lisa.		1043						father_00	god_00	croissant_cerious	null
+20	0	1043	羊角包	在本地小学执教数学科目，也身兼班主任一职。	I’m teaching mathematics at a local primary school and I also work as a class advisor.			2005/	1				father_00	god_00	croissant_cerious	null
+4	0	1044	羊角包	你又是谁？	who are you?		1045						father_00	god_00	croissant_normal	null
+8	0	1045	主角	我是一名面包师。	I’m a baker... 			2006/	1				father_00	god_00	croissant_normal	null
+12	0	1046	羊角包	呃……面包师找我有什么事？	Ah... So what can I do for a baker?		1047						father_00	god_00	croissant_normal	null
+15	0	1047	主角	同时也是这间审判厅的审判长……	... And the presiding judge of this courtroom.		1048						father_00	god_00	croissant_normal	null
+14	0	1048	主角	接下来我应该会对你进行审判。	I’m probably putting you on trial.		1049						father_00	god_00	croissant_normal	null
+8	0	1049	神	大概是什么意思啦！	"Probably"?		1050						father_00	god_00	croissant_normal	null
+7	0	1050	主角	咳咳，不用怀疑。	Ahem, actually yes, I am the presiding judge.		1051						father_00	god_00	croissant_normal	null
+17	0	1051	主角	我就是审判长，接下来要对你进行审判。	And I will put you on trial.		1052						father_00	god_00	croissant_normal	null
+13	0	1052	羊角包	审判？我犯了什么罪？需要上法庭？	A trial? What crime have I committed? That I have to be taken to court?		1053						father_00	god_00	croissant_cerious	null
+11	0	1053	主角	让我们来看关键证据吧。	Let’s look at the evidence.							2 3	father_00	god_00	croissant_normal	null
+15	0	1054	主角	看起来你好像不受同学们欢迎呢。	Looks like you are not popular with your class.		1055						father_00	god_00	croissant_normal	null
+13	0	1055	主角	前排的同学都怕你怕到哭了。	That kid in the front row was so scared of you that she was crying.		1056						father_00	god_00	croissant_normal	null
+9	0	1056	羊角包	你说第一排的同学么？	Do you mean the girl sitting in the first row?		1057						father_00	god_00	croissant_cerious	null
+7	0	1057	羊角包	她数学考了59分。	She got a 59 in maths.		1058						father_00	god_00	croissant_cerious	null
+13	0	1058	羊角包	自己没考好委屈，要怪我身上吗？	She was upset that she didn't pass the exam, and you are blaming that on me?		1059						father_00	god_00	croissant_cerious	null
+6	0	1059	主角	平均分有多少？	What’s the average score?		1060						father_00	god_00	croissant_cerious	null
+2	0	1060	羊角包	80分。	80		1061						father_00	god_00	croissant_cerious	null
+10	0	1061	主角	你为什么不安慰一下她？	Why don’t you comfort and encourage her a little bit?		1062						father_00	god_00	croissant_normal	null
+11	0	1062	羊角包	我们又不是什么快乐教育！	Come on. It’s not that we are doing the so-called happy education!		1063						father_00	god_00	croissant_cerious	null
+22	0	1063	羊角包	考砸了就该狠狠地哭，哭着反省自己为什么会考砸。	You'd better cry out loud when you flunked an exam, because that makes you reflect on why you have failed it.							TRUE	father_00	god_00	croissant_cerious	null
+12	0	1064	主角	你平时上课也是这副模样吗？	Do you always look like this in class?		1065						father_00	god_00	croissant_normal	null
+12	0	1065	主角	这么凶巴巴地对着所有学生？	So mean and harsh?		1066						father_00	god_00	croissant_normal	null
+13	0	1066	羊角包	当然不是，同学们可喜欢我了。	Of course not. Kids love me.		1067						father_00	god_00	croissant_smail	null
+16	0	1067	羊角包	那次不过正好是数学考试出分罢了。	That time... it’s just the maths results happened to come out.							TRUE	father_00	god_00	croissant_cerious	null
+18	0	1068	羊角包	我不知道你是什么奇奇怪怪的审判长……	Look, I don’t know what kind of weird presiding judge you are... 		1069						father_00	god_00	croissant_cerious	null
+17	0	1069	羊角包	但很明显，你根本不了解我和我的学生。	But obviously, you don’t know a thing about me or my students.		1070						father_00	god_00	croissant_cerious	null
+21	0	1070	羊角包	你说的那个同学，她平时考试成绩并没有那么差。	That kid you mentioned, usually does a lot better in exams.		1071						father_00	god_00	croissant_smail	null
+18	0	1071	羊角包	她很喜欢数学，下课后总会找我来问问题。	She loves maths and always comes to me after class to ask questions.		1072						father_00	god_00	croissant_smail	null
+19	0	1072	羊角包	我很喜欢她这样的孩子，勤学、聪慧、好问。	She’s a studious, intelligent, and inquisitive kid. I like her very much.		1073						father_00	god_00	croissant_smail	null
+22	0	1073	羊角包	突然考砸会哭再正常不过了，毕竟她也有自尊心呀。	It’s just normal to cry after she unexpectedly flopped an exam. After all, she has her own pride.		1074						father_00	god_00	croissant_cerious	null
+4	0	1074	羊角包	况且……	Besides... 		1075						father_00	god_00	croissant_cerious	null
+4	0	1075	主角	况且……？	Besides...?		1076						father_00	god_00	croissant_normal	null
+15	0	1076	羊角包	再说下去就涉及我的学生隐私了。	I’m not going to expose my student's privacy.		1077						father_00	god_00	croissant_cerious	null
+18	0	1077	羊角包	我只能告诉你，她会考砸是因为心情不好。	All I can tell you is that she didn't do well because she was in a bad mood.		1078						father_00	god_00	croissant_cerious	null
+12	0	1078	神	好了，罪人的发言时间完毕。	All right, that’s all for this sinner.		1079						father_00	god_00	croissant_normal	null
+10	1	1079	神	请审判长做出判决——	Presiding judge, please deliver your verdict—			2007/2008	1				father_00	god_00	croissant_normal	null
+11	0	1080	主角	我觉得她没有什么错……	I don’t think there’s anything wrong with her... 		1081						father_00	god_00	croissant_normal	null
+23	0	1081	主角	如果同她说的那样，学生是因为没有考好才哭的话……	If, as she said, the kid cried because she didn’t do well in the exam... 		1082						father_00	god_00	croissant_normal	null
+18	0	1082	主角	这件事根本算不上是老师伤了学生的心。	It was not a matter of a teacher breaking a student’s heart.		1083						father_00	god_00	croissant_normal	null
+15	0	1083	主角	况且她也很关心那名学生的样子。	Besides, it looks like she is quite concerned about that student.		1084						father_00	god_00	croissant_normal	null
+11	0	1084	主角	我认为她应该无罪释放。	I think she should be acquitted.		1088						father_00	god_00	croissant_normal	null
+24	0	1085	主角	身为老师却没有对学生最基本的一点同理心，有失师德。	As a teacher, she has not any empathy that she is supposed to have as a minimum ethical requirement for her profession, and has broken an innocent student's heart.		1086						father_00	god_00	croissant_normal	null
+10	0	1086	主角	她犯下的错无法弥补。	Her inappropriate conduct has led to irreversible consequences.		1087						father_00	god_00	croissant_normal	null
+8	0	1087	主角	因此我认定她有罪！	Hence I find her guilty!		1103			guilty			father_00	god_00	croissant_normal	null
+20	0	1088	羊角包	我无罪了？这奇奇怪怪的审判厅到底怎么回事。	I’m not guilty? What is wrong with this weird courtroom?		1089						father_00	god_00	croissant_cerious	null
+13	0	1089	羊角包	看我不去找教育局投诉你们。	I’m absolutely going to make a complaint to the school board!		1090						father_00	god_00	croissant_cerious	null
+2	0	1090	神	……	... 		1091			not_guilty			father_00	god_00	croissant_cerious	null
+10	0	1091	神	你怎么把罪人给放走了！	You let the sinner walk away!		1092						father_00	god_00		null
+10	0	1092	神	你觉得她一点也没错吗？	You seriously think she has done nothing wrong?		1093						father_00	god_00		null
+3	0	1093	主角	嗯……	Well, yes... 		1094						father_00	god_00		null
+11	0	1094	主角	理由就和我说的那样……	Because... 			2009/2010/2011	1				father_00	god_00		null
+7	0	1095	神	原来你这样想。	So that’s what you think.		1096						father_00	god_00		null
+12	0	1096	主角	面包之神，你又是怎么想的呢？	Then, God of Bread, what do you think?		1097						father_00	god_00		null
+3	0	1097	神	我……	I... 		1098						father_00	god_00		null
+12	0	1098	神	你怎么可以问神这个问题呢！	H-hey! How can you ask a god a question like this!		1099						father_00	god_00		null
+17	0	1099	神	神是全知全能的，告诉了你不就剧透了么！	God is omniscient and omnipotent, you know, and telling you the answer is spoiling the plot!		1100						father_00	god_00		null
+19	0	1100	神	你才是审判长，要由你来倾听、发现、判决。	You are the presiding judge, so it's up to you to listen, discover, and judge.		1101						father_00	god_00		null
+16	0	1101	神	但你第一次做审判，不懂也很正常啦。	But this is your first trial, so it’s natural you didn’t do it perfectly.		1102						father_00	god_00		null
+7	0	1102	神	下一次好好表现！	Try to do better next time!		1111			scene			father_00	god_00		null
+13	0	1103	神	审判长，为什么你会认为她有罪？	Presiding judge, why do you think she’s guilty?		1104						father_00	god_00		null
+24	0	1104	主角	我不能原谅一名老师面对眼前流泪的学生感到无动于衷！	I can’t forgive a teacher for feeling indifferent to a tearful student!		1105						father_00	god_00		null
+22	0	1105	主角	如果我是那名老师的话，我会想要保护好那个孩子。	If I were her, I’d want to protect that kid as best as I could.		1106						father_00	god_00		null
+17	0	1106	主角	至少在那一刻，给她一些最基本的安慰。	At least give her the basic comfort she needed at that particular moment.		1107						father_00	god_00		null
+11	0	1107	神	没关系，我相信你的判断。	That’s all right. I trust your judgment.		1108						father_00	god_00		null
+19	0	1108	神	你是审判长，应该由你来倾听、发现、判决。	You are the presiding judge. It is up to you to listen, discover, and judge.		1111			scene			father_00	god_00		null
+													father_00	god_00		null
+													father_00	god_00		null
+15		1111	神	好了，那让我们请出第二位罪人——	All right, let’s bring the second sinner to court—		1112			baguette-enter			father_00	god_00	baguette_normal	null
+10		1112	法棍	哇这里是哪里！你又是谁？	Oh god, where am I? And who are you?		1113						father_00	god_00	baguette_veryflurried	null
+18		1113	神	这次就由你来主导审判了。审判长，加油吧！	This time, you’ll be leading the trial. Come on, judge!		1114						father_00	god_00	baguette_flurried	null
+23		1114	主角	这里是面包之神的审判厅。我是负责事件的审判长。	This is the courtroom of the God of Bread. I’m the presiding judge in charge.		1115						father_00	god_00	baguette_normal	null
+14		1115	法棍	啊？审判厅……我什么都没做错啊！	Huh? Courtroom?... I-I didn’t do anything wrong!		1116						father_00	god_00	baguette_flurried	null
+13		1116	法棍	我不要被判刑，不要啊呜呜呜。	I’m not going to jail! NO!! Waah waah... 	1122		2013/2014	2				father_00	god_00	baguette_veryflurried	null
+11		1117	主角	先别急，这不由你来决定。	Calm down. It’s not up to you.		1118						father_00	god_00	baguette_normal	null
+12		1118	主角	我们需要先回顾你的案情。	We need to review your case first.		1119						father_00	god_00	baguette_normal	null
+4		1119	法棍	好吧……	All right then... 								father_00	god_00	baguette_normal	null
+12		1120	主角	看你这副模样，明显心里有鬼！	Judging from your reaction, it looks like you ARE actually hiding something!		1121						father_00	god_00	baguette_normal	null
+11		1121	法棍	不是不是不是！我只是害怕！	No no no! I’m just scared!								father_00	god_00	baguette_flurried	null
+12		1122	神	越来越有审判官的模样了嘛！	Look at you! You are growing into a real judge now!		1123						father_00	god_00	baguette_normal	null
+9		1123	神	那么……变变变变变！	Ok then... Abracadabra!!		1124				story2		father_00	god_00	baguette_normal	null
+12		1124	神	这次就交给你自由审问了。	This time, I’ll leave it all to you.	1145						TRUE	father_00	god_00	baguette_normal	null
+11		1125	主角	地上有什么东西打碎了吗？	Is there anything smashed on the floor?		1126						father_00	god_00	baguette_normal	null
+17		1126	法棍	是很脆的曲奇。所以才一摔就碎了……	It’s a crunchy cookie. That’s why it just shattered when it dropped... 		1127						father_00	god_00	baguette_normal	null
+6		1127	主角	是你摔碎的吗？	Did you drop it?		1128						father_00	god_00	baguette_normal	null
+7		1128	法棍	不、不是我！……	N-no!... 								father_00	god_00	baguette_veryflurried	null
+15		1129	主角	你知道那个袋子是用来做什么的吗？	Do you know what that bag is for?		1130						father_00	god_00	baguette_normal	null
+7		1130	法棍	用来装曲奇的。	It’s for the cookies.		1131						father_00	god_00	baguette_normal	null
+12		1131	主角	袋子本身有什么特别之处吗？	Is there anything special about the bag itself?		1132						father_00	god_00	baguette_normal	null
+11		1132	法棍	上面有绑一个蝴蝶结……	It’s got a bow on it... 								father_00	god_00	baguette_normal	null
+22		1133	主角	你看你眼前的人都快哭出来了，你是不是在欺负别人！	Looks like this poor girl in front of you was almost crying. Were you bullying her?!		1134						father_00	god_00	baguette_normal	null
+5		1134	法棍	不、不是的！	No, it’s not like that!		1135						father_00	god_00	baguette_flurried	null
+17		1135	法棍	我只是想尝一尝曲奇……没想到就……	I just wanted to taste the cookies... I-I didn’t mean to... 		1136						father_00	god_00	baguette_veryflurried	null
+6		1136	主角	把话说清楚。	Let’s get this straight.		1137						father_00	god_00	baguette_normal	null
+26		1137	法棍	嗯……那些曲奇是我朋友亲手做的，所以我才想问它尝一块。	Well... my friend made those cookies, so I thought it’d be nice if I could have a bite.		1138						father_00	god_00	baguette_flurried	null
+13		1138	主角	所以，拿着曲奇的人是你的朋友？	So, that girl with the cookies is your friend?		1139						father_00	god_00	baguette_flurried	null
+11		1139	法棍	是的。她是我最好的朋友！	Yes. She is my best friend!		1140						father_00	god_00	baguette_flurried	null
+13		1140	法棍	唔……但可能是过去时了……	Emm... maybe "was" ... 		1141						father_00	god_00	baguette_normal	null
+13		1141	法棍	我不知道她有没有原谅我……	I don’t know if she’s forgiven me yet... 		1142						father_00	god_00	baguette_normal	null
+11		1142	主角	你的意思是这是一场意外？	Are you saying it was an accident?		1143						father_00	god_00	baguette_normal	null
+14		1143	法棍	是我太冲动了……缠着她想吃。	I was too pushy... I kept pestering her for the cookies.		1144						father_00	god_00	baguette_flurried	null
+23		1144	法棍	结果因为蝴蝶结没有系牢，曲奇就从袋子里掉了出来。	I didn't notice the bow was not fastened, and the next thing I knew, the cookie fell out of the bag... 								father_00	god_00	baguette_flurried	null
+21		1145	神	好了，犯人的发言时间完毕，请审判官做出判决——	All right, time’s up for the sinner’s presentation. Please make a verdict, Your Honor—			2015/2016	1				father_00	god_00	baguette_normal	null
+7		1146	主角	很明显她没有错！	It’s obvious she did nothing wrong!		1147						father_00	god_00	baguette_normal	null
+33		1147	主角	这件事情没有什么疑点。只要她说的话是真的，那么这就是一场单纯的意外。	There’s nothing suspicious about this case. As long as she was telling the truth, this was simply an unfortunate accident.		1148						father_00	god_00	baguette_normal	null
+11		1148	法棍	呜呜呜谢谢你愿意相信我	Thank you for trusting me... (sob sob)... 		1149						father_00	god_00	baguette_veryflurried	null
+23		1149	法棍	其实……那袋曲奇是我朋友要送给重要的人的礼物。	Actually... that bag of cookies? It was a gift from my friend to someone who's very important to her.		1150						father_00	god_00	baguette_normal	null
+10		1150	法棍	是我不好，非吵着要吃。	It’s my fault for keep asking for it.		1151						father_00	god_00	baguette_flurried	null
+11		1151	主角	说到底这依然是一场意外！	After all, it was still an accident!		1152						father_00	god_00	baguette_normal	null
+12		1152	主角	况且你也已经知道错误了。	Besides, you already know your mistake.		1153						father_00	god_00	baguette_normal	null
+10		1153	主角	所以，我认为你应当无罪！	So, I think you are not guilty!		1162			not_guilty			father_00	god_00	baguette_normal	null
+13		1154	主角	这件事你有不可推卸的责任。	You have an unshirkable responsibility for this matter.		1155						father_00	god_00	baguette_veryflurried	null
+8		1155	主角	我在此宣布你有罪！	I hereby declare you guilty!		1156						father_00	god_00	baguette_flurried	null
+11		1156	主角	俗话说得好，冲动是魔鬼。	As the saying goes, impulse is the devil.		1157						father_00	god_00	baguette_flurried	null
+28		1157	主角	即便不是主观犯罪，你的行为客观上确实导致你朋友摔碎了曲奇。	Even if you didn’t mean to commit a crime, your actions did ruin your friend's cookies.		1158						father_00	god_00	baguette_flurried	null
+23		1158	法棍	其实……我朋友本来打算把那袋曲奇送给重要的人。	Actually, my friend was going to give that bag of cookies to someone who’s very important to her.		1159						father_00	god_00	baguette_flurried	null
+10		1159	法棍	是我不好，非吵着要吃。	It’s my fault for keep asking for it.		1160						father_00	god_00	baguette_flurried	null
+17		1160	法棍	既然你也已经承认了，我在此宣布你有罪！	Now that you have confessed, I hereby declare you guilty!		1161						father_00	god_00	baguette_flurried	null
+10		1161	法棍	怎么这样呜呜呜呜…… 	Oh god... waah... 		1162			guilty			father_00	god_00	baguette_veryflurried	null
+11		1162	神	这样就又结束一桩案件啦！	Another case solved!		1163						father_00	god_00		null
+8		1163	主角	你怎么看待这件事？	What do you think of this?		1164						father_00	god_00		null
+8		1164	神	我可是面包之神。	I’m the God of Bread.		1165						father_00	god_00		null
+24		1165	神	我能做的就是展现给你当时的场景，然后交给你来判断。	All I can do is show you what happened, and leave it to you to decide.		1166						father_00	god_00		null
+14		1166	神	所以我是不会发表多余的意见的！	So I’m not going to give any unnecessary opinions!		1167						father_00	god_00		null
+23		1167	主角	我觉得……这些案子没有严重到需要审判的地步……	Actually... I don’t think these cases are serious enough to warrant a trial.		1168						father_00	god_00		null
+7		1168	神	你真的这么想吗？	Do you really think so?		1169						father_00	god_00		null
+15		1169	神	那我来问问你，审判长的职责是什么？	Then let me ask you, what do you think is the duty of a presiding judge?			2018/2019/2020	1				father_00	god_00		null
+4		1170	神	你说得对！	Right to the point!		1171						father_00	god_00		null
+15		1171	神	所以，选什么案件可不由你来决定哦！	So, it’s not up to you to decide what cases are to be brought to court.		1172						father_00	god_00		null
+12		1172	主角	被定罪的面包之后会怎么样？	What happens to the condemned bread?		1173						father_00	god_00		null
+11		1173	神	被打入十八层三明治地狱！	They are to be banished to the Eighteen Levels of Sandwich Hell!		1174						father_00	god_00		null
+19		1174	主角	十八层三明治究竟是五十四层还是三十六层！？	And how many levels does an 18-level Sandwich Hell have exactly?! 54? 36?		1175						father_00	god_00		null
+9		1175	神	吐槽的点不对啦——	I think your comment is way off the point... 		1177			scene			father_00	god_00		null
+													father_00	god_00		null
+12		1177	神	那么，我们带上下一位罪人吧！	Never mind! Let’s bring up the next sinner!		1178			ciabatta-enter			father_00	god_00	ciabatta_closeeye	null
+9		1178	拖鞋包	哈欠……这里是哪里？	Yawn... where is this place?	1184		2021/2022	2				father_00	god_00	ciabatta_closeeye	null
+15		1179	拖鞋包	我在街角开杂货铺，叫我杰森就好。	I’m running a corner store. Call me Jason.								father_00	god_00	ciabatta_normal	null
+6		1180	拖鞋包	为什我要紧张？	Why should I be nervous?		1181						father_00	god_00	ciabatta_normal	null
+15		1181	拖鞋包	难不成这里是什么消费者投诉协会？	What? Is this some kind of consumer protection agency or something?		1182						father_00	god_00	ciabatta_engry	null
+16		1182	拖鞋包	倒是你的黑眼圈好像有点重，没睡好吗？	But hey, your dark circles seem a little heavy. Didn’t you sleep well?		1183						father_00	god_00	ciabatta_normal	null
+2		1183	主角	……	... 								father_00	god_00	ciabatta_normal	null
+26		1184	主角	这里是面包之神的审判厅。接下来我将负责对你进行审判。	This is the courtroom of the God of Bread. I’m going to be in charge of your trial.		1185						father_00	god_00	ciabatta_normal	null
+12		1185	拖鞋包	审判？真是让人摸不着头脑。	A trial? I’m confused.		1186						father_00	god_00	ciabatta_closeeye	null
+12		1186	主角	没关系，我们直接看证据吧。	That’s all right. Let’s just go straight to the evidence.		1187						father_00	god_00	ciabatta_normal	null
+10		1187	神	好咧。变变变变变——	Okay. Abracadabra—		1326				story3		father_00	god_00	ciabatta_normal	null
+9		1188	神	准备好开始审问了吗？	Are you ready to begin the trial?	1210						TRUE	father_00	god_00	ciabatta_normal	null
+													father_00	god_00	ciabatta_normal	
+13		1189	主角	你除了卖吃的喝的，还卖小卡片？	I see that you’re selling food and drinks... as well as small cards?		1190						father_00	god_00	ciabatta_normal	null
+12		1190	拖鞋包	小卡片？我可不做那种生意。	Small cards? I’m not in that business.		1191						father_00	god_00	ciabatta_normal	null
+15		1191	主角	我的意思不是那种小卡片！严肃一点！	I don’t mean those sexy little cards stuffed in the crack of a hostel door! Be serious!		1192						father_00	god_00	ciabatta_normal	null
+17		1192	主角	上面画着图案的卡片，你知不知道些什么？	The cards with pictures on them. Do you know anything about them?		1193						father_00	god_00	ciabatta_normal	null
+14		1193	拖鞋包	噢……我知道你说的是什么了。	Oh, I know what you’re talking about.		1194						father_00	god_00	ciabatta_normal	null
+18		1194	拖鞋包	你想说的是布丁英雄传的收集小卡片，对吧？	You mean the Pudding Outlaws of the Marsh trading cards, don't you?		1195						father_00	god_00	ciabatta_normal	null
+7		1195	主角	收集小卡片……？	Trading cards...?		1196						father_00	god_00	ciabatta_normal	null
+15		1196	拖鞋包	每买一杯布丁就随赠一张小卡片。	Every cup of pudding you bought comes with a random small card from the collection.		1197						father_00	god_00	ciabatta_normal	null
+9		1197	主角	款式随机，总共有80款。	There are 80 different cards in total.		1198						father_00	god_00	ciabatta_normal	null
+15		1198	主角	这么多款还要随机……！太奸商了吧！	80 different cards and comes random...! What a profiteer!		1199						father_00	god_00	ciabatta_normal	null
+12		1199	拖鞋包	又不是我设计的！不能怪我吧？	I didn’t design it! Can you blame me?		1200						father_00	god_00	ciabatta_engry	null
+21		1200	拖鞋包	话说回来，现在的小朋友们特别喜欢搞这种收集。	Anyway, kids these days are really fond of collecting such things.		1201						father_00	god_00	ciabatta_closeeye	null
+8		1201	拖鞋包	布丁倒是其次了。	That makes pudding fall to second place.		1202						father_00	god_00	ciabatta_closeeye	null
+17		1202	拖鞋包	大人们喜欢这种的也不少，谁不爱收集呢！	And many adults love collecting, too. Well, who doesn't?								father_00	god_00	ciabatta_normal	null
+21		1203	主角	看货架上的东西，你们杂货铺卖的品种挺多的样子？	Looking at your shelves, it looks like your grocery store sells quite a variety of things?		1204						father_00	god_00	ciabatta_normal	null
+16		1204	拖鞋包	那当然，这附近的人都来我这买东西。	Yeah, the neighborhoods always come to my store.		1205						father_00	god_00	ciabatta_normal	null
+14		1205	主角	你有没有过把烟酒卖给未成年人？	Have you ever sold cigarettes or alcohol to minors?		1206						father_00	god_00	ciabatta_normal	null
+4		1206	拖鞋包	别扣帽子！	Don't try to put that label on me!		1207						father_00	god_00	ciabatta_engry	null
+15		1207	拖鞋包	没做过的事就是没做过，良心作证。	I didn't, it's true. I can promise by my conscience.								father_00	god_00	ciabatta_engry	null
+8		1208	主角	你有抽烟的习惯吗？	Do you smoke?		1209						father_00	god_00	ciabatta_normal	null
+20		1209	拖鞋包	嗯……总得打发下时间，店里一坐就是一整天。	Uhh... Sitting in the store all day long, you will gonna need some time killer.								father_00	god_00	ciabatta_normal	null
+6		1210	主角	我明白了……	I see... 	1230		2027/2028	2				father_00	god_00	ciabatta_normal	null
+15		1211	主角	你抽烟抽得太厉害，把顾客都熏哭了！	You smoked too much and made your customer's eyes water! 		1212						father_00	god_00	ciabatta_normal	null
+8		1212	拖鞋包	欲加之罪何患无辞！	Go ahead, keep framing me however you want!		1213						father_00	god_00	ciabatta_engry	null
+5		1213	主角	这就是事实！	That is the truth!		1214						father_00	god_00	ciabatta_normal	null
+16		1214	主角	顾客应当是上帝，你却对着上帝抽香烟！	The customer is God, and you dare to smoke in front of God!		1215						father_00	god_00	ciabatta_normal	null
+6		1215	主角	天哪！不可饶恕！！！	Oh my god! That's unforgivable!!!		1216						father_00	god_00	ciabatta_normal	null
+11		1216	主角	开了个玩笑，不好意思……	Just kidding, sorry... 		1217						father_00	god_00	ciabatta_normal	null
+2		1217	拖鞋包	……	... 								father_00	god_00	ciabatta_closeeye	null
+16		1218	主角	那位顾客是不是没有抽到想要的卡片？	The customer didn't get the card she wanted, right?		1219						father_00	god_00	ciabatta_normal	null
+9		1219	拖鞋包	你反应挺快嘛，没错。	What a quick reaction. Yes, you're right.		1220						father_00	god_00	ciabatta_normal	null
+22		1220	拖鞋包	我记得那个小姑娘想要一张带黑条纹的黄布丁卡。	I remember that the little girl wanted a yellow pudding card with black stripes on it.		1221						father_00	god_00	ciabatta_normal	null
+5		1221	主角	结果没抽到？	And she couldn't get one?		1222						father_00	god_00	ciabatta_normal	null
+15		1222	拖鞋包	她已经集齐79张了，就差最后这一张。	She already collected all of the other 79 cards. It's the last one that she didn't have.		1223						father_00	god_00	ciabatta_normal	null
+14		1223	拖鞋包	可惜愣是买了好多次也没出现。	Unfortunately, despite her multiple pudding purchases. That card just never shows up.		1224						father_00	god_00	ciabatta_normal	null
+11		1224	拖鞋包	我真是想帮忙也帮不上。	I can't help with that.		1225						father_00	god_00	ciabatta_normal	null
+7		1225	主角	她是你的常客吗？	Is she a regular customer?		1226						father_00	god_00	ciabatta_normal	null
+12		1226	拖鞋包	哈哈，她放学后总来我这玩。	Haha, she always came to play around after school.		1227						father_00	god_00	ciabatta_closeeye	null
+21		1227	拖鞋包	平时我儿子也会和她一起，但那天正好只有我在。	Usually, my son would keep her company, but on that day, I was the only one there.		1228						father_00	god_00	ciabatta_normal	null
+19		1228	拖鞋包	先说好，我可不是特意在小孩子面前抽烟的。	To be clear, I didn't mean to smoke in front of a kid.		1229						father_00	god_00	ciabatta_engry	null
+7		1229	拖鞋包	后面我就掐掉了！	I stubbed out the cigarette later!								father_00	god_00	ciabatta_engry	null
+6		1230	主角	我有结论了。	I have made my conclusion.			2029/2030	1				father_00	god_00	ciabatta_normal	null
+23		1231	主角	在未成年人面前抽烟，不管有意无意，已经是重大过错了！	Smoking in front of a minor, whether intentionally or not, is a serious mistake!		1232			guilty			father_00	god_00	ciabatta_normal	null
+8		1232	主角	我在此认定你有罪！	I hereby declare you guilty!		1244						father_00	god_00	ciabatta_normal	null
+16		1233	主角	怎么看你都没什么错！好了，你没事了。	I think you did nothing wrong. Well, you're all right now!		1234						father_00	god_00	ciabatta_normal	null
+8		1234	主角	我在此宣布你无罪！	I hereby acquit you!		1235			not_guilty			father_00	god_00	ciabatta_normal	null
+13		1235	主角	这次的审判……我做得不错吧？	This trial... I did a good job, didn't I?		1236						father_00	god_00		null
+11		1236	神	没有放过一个细节，很认真！	Never miss a single detail. Well done!		1237						father_00	god_00		null
+16		1237	神	对啦，你有没有过收集某种东西的经验？	By the way, do you have any experience with collecting things?		1238						father_00	god_00		null
+14		1238	主角	硬要说的话，我收集过面包模具。	I used to collect baking molds, if that counts.		1239						father_00	god_00		null
+22		1239	主角	从北欧到中东，各式各样的面包模具，大概有上百种。	From Northern Europe to the Middle East, various kinds of baking molds, like about a hundred.		1240						father_00	god_00		null
+10		1240	神	这些模具，你都有用过吗？	Have you used all of them?		1241						father_00	god_00		null
+10		1241	主角	大部分至少用过一次。	Most of them have been used at least once.		1242						father_00	god_00		null
+20		1242	主角	但真的每天用来做面包的，其实只有一小部分。	But speaking of every day, only a small part of them are used.		1243						father_00	god_00		null
+17		1243	主角	毕竟日常吃的面包的品种比较有限呢。	After all, the variety of daily bread is relatively limited.		1244						father_00	god_00		null
+11		1244	神	你很注重保护未成年呢。	And you seem to care a lot about minors.		1245						father_00	god_00		null
+16		1245	主角	嗯……毕竟我们家也有个小女儿……	Yeah... I have a young daughter at home too, you see... 		1246						father_00	god_00		null
+16		1246	主角	一不小心就会代入到爸爸的角色里。	It's hard not to slip into the character of a father.		1247						father_00	god_00		null
+8		1247	神	你会保护欲过剩吗？	Like being overprotective?		1248						father_00	god_00		null
+13		1248	主角	我想说是的，但可能看不出吧。	I would say yes. But I probably didn't show it.		1249						father_00	god_00		null
+13		1249	主角	我每天都围在面包坊里转……	I buzz around the bakery every single day... 		1250						father_00	god_00		null
+19		1250	主角	上下午两批面包，等忙完了就到晚饭时间了。	Two batches of bread, one in the morning, another in the afternoon. When all the work gets done, it will be dinner time.		1251						father_00	god_00		null
+24		1251	主角	不得不让女儿一个人回家，我心里一直觉得很对不起她。	I always feel sorry for my girl that I have to let her come home alone.		1252						father_00	god_00		null
+15		1252	主角	啊……抱歉让你听到些有的没的。	Oh... Apologies for dragging you into this pointless chatter.		1253						father_00	god_00		null
+11		1253	主角	我们继续审下一个案子吧？	Shall we go on to the next case?		1255			scene			father_00	god_00		null
+													father_00	god_00		null
+15		1255	神	终于，轮到了我们的最后一位罪人。	Finally, it's time for our last sinner.		1256						father_00	god_00		null
+14		1256	主角	这就到最后了吗，时间过得好快。	Already the last one? Time flies.		1257			father_enter			father_00	god_00		null
+4		1257	主角罪人	我是罪人？	I am the sinner?		1258							god_00	father_normal	null
+12		1258	神	没错，你是罪人，也是审判长。	Yes, you are both the sinner and the presiding judge.			2031/2032	1					god_00	father_normal	null
+10		1259	神	审判长……先不用急。	Presiding judge... don't be worried.		1260							god_00	father_normal	null
+13		1260	神	我们来一起回顾一下案情吧。	Let's review the case together first.		1261				story4			god_00	father_normal	null
+9		1261	主角罪人	真是熟悉的场景……	The place is familiar to me... 	1271						TRUE		god_00	father_normal	null
+14		1262	主角罪人	这个地方是我们家的面包坊……	That's my bakery... 		1263							god_00	father_normal	null
+15		1263	主角罪人	我一个人包揽了里里外外的事务。	I handle all the work in and out by myself.		1264							god_00	father_normal	null
+11		1264	主角罪人	这是今天下午的场景吧。	I think that's this afternoon.		1265							god_00	father_normal	null
+25		1265	主角罪人	因为明天就是感恩节了，今天来买面包的客人格外之多……	I got a lot more customers than usual because tomorrow will be Thanksgiving Day... 		1266							god_00	father_normal	null
+16		1266	主角罪人	平时每天都只要做两批面包就好了。	Normally, I only need to make two batches of bread everyday.		1267							god_00	father_normal	null
+14		1267	主角罪人	但今天傍晚还额外加烤了一批。	But I baked an extra batch at dusk today.		1268							god_00	father_normal	null
+9		1268	主角罪人	实在是忙得团团转。	I was literally bustling around.									god_00	father_normal	null
+13		1269	主角罪人	我对这瓶幸运星没有印象……	I have no idea of that lucky star bottle... 		1270							god_00	father_normal	null
+11		1270	主角罪人	是哪一位顾客带进来的吗？	Perhaps one of the customers brought it there?									god_00	father_normal	null
+14		1271	主角罪人	所以这次是我做错了什么事情吗？	Then, I am the one who did something wrong this time?		1272							god_00	father_normal	null
+5		1272	神	嗯。没错。	Mhm, yes.		1273							god_00	father_normal	null
+16		1273	神	但好像你还没有意识到发生了什么。	But it seems like you still don't know what happened.		1274							god_00	father_normal	null
+10		1274	神	让我来给你几个提示吧？	Let me give you some hints.	1283		2033/2034/2035	3					god_00	father_normal	null
+11		1275	主角罪人	我叫约翰，今年三十二岁。	My name is John, 32 years old.									god_00	father_normal	null
+10		1276	主角罪人	我经营着一家面包坊。	I run a bakery.		1277							god_00	father_normal	null
+12		1277	主角罪人	因为手艺好，店里生意红火。	Because I am a good baker,  my bakery is doing very well.		1278							god_00	father_normal	null
+17		1278	主角罪人	平时每天三点就要起床为开店做准备。	Usually, I get up at 3 a.m. and start to prepare for opening up every day...		1279							god_00	father_normal	null
+9		1279	主角罪人	中午会小歇一会儿。	...and take a break at lunchtime.		1280							god_00	father_normal	null
+18		1280	主角罪人	晚上八点左右就要睡下，为第二天做准备。	And go to bed at around 8 p.m. for the next day's sake.									god_00	father_normal	null
+13		1281	主角罪人	我有一个女儿，现在在读小学。	I have a daughter who is in primary school now.		1282							god_00	father_normal	null
+20		1282	主角罪人	我和前妻离婚了，所以一直是我一个人在带她。	I have been raising her on my own since I divorced my ex-wife.									god_00	father_normal	null
+22		1283	神	每一年的感恩节前夕，你总是为了面包坊忙进忙出。	Every Thanksgiving Eve, you're always busy around the bakery.		1284							god_00	father_normal	null
+17		1284	神	你的面包为每个人带来了幸福，可是……	Your bread brings happiness to everyone else, but... 		1285							god_00	father_normal	null
+22		1285	神	你却总是忙到顾不得自己，甚至顾不到最爱你的人。	You are always too busy to consider yourself, or even the person who loves you the most.		1286							god_00	father_normal	null
+19		1286	神	那瓶幸运星是你的女儿给你的感恩节礼物。	That lucky star bottle was from your daughter, a Thanksgiving gift for you.  	1297		2036/2037	2					god_00	father_normal	null
+11		1287	主角罪人	我真的不知道会是这样。	I didn't realize that at all.		1288							god_00	father_normal	null
+16		1288	主角罪人	那天我累到一打烊就躺床上休息了。	That day I was so tired that I went straight to bed as soon as closed.		1289							god_00	father_normal	null
+12		1289	主角罪人	没能和艾莉丝一起吃晚饭。	Couldn't have dinner with Alice.		1290							god_00	father_normal	null
+8		1290	主角罪人	是我对不起她……	I owe her a lot... 		1291							god_00	father_normal	null
+24		1291	主角罪人	打理面包坊太辛苦了，我没抽出足够的时间陪她在一起。	Managing a bakery is exhausting, and I couldn't spend enough time with her.									god_00	father_normal	null
+18		1292	主角罪人	前面的那些判决，是不是也是艾莉丝的记忆？	Those sentences before, are they also Alice's memories?		1293							god_00	father_normal	null
+15		1293	神	没错，是她生活中发生的点点滴滴。	Yeah, those are all the little drops of her daily life.		1294							god_00	father_normal	null
+17		1294	主角罪人	原来……她有这么多事情没告诉过我。	So... there are so many things she didn't tell me.		1295							god_00	father_normal	null
+17		1295	主角罪人	是我不好……让她受了这么多不开心。	It's my fault... she suffered from plenty of unpleasantness.		1296							god_00	father_normal	null
+12		1296	主角罪人	还不能和最亲的亲人倾诉。	And couldn't talk to her closest family.									god_00	father_normal	null
+12		1297	神	那么，请审判官做出判断吧。	Then, let the judge make his decision.			2038/	1					god_00	father_normal	null
+5		1298	主角罪人	我有罪……	I am guilty... 		1299							god_00	father_normal	null
+12		1299	主角罪人	只是……面包之神大人……	It's just that... the great God of Bread... 		1300							god_00	father_normal	null
+14		1300	主角罪人	我想今后开始好好照顾艾莉丝。	From now on, I want to take good care of Alice. 		1301							god_00	father_normal	null
+15		1301	主角罪人	我想和她分享生活中的喜怒哀乐。	I want to share every kind of emotion in life with her,  no matter whether that would be pleasure or anger, sorrow or joy.		1302							god_00	father_normal	null
+11		1302	主角罪人	我想参与她的成长过程。	I want to take part in her growth.		1303							god_00	father_normal	null
+18		1303	主角罪人	我不想再让她下课后总是一个人回家了。	And I don't want her to come home alone after school again.		1304							god_00	father_normal	null
+19		1304	主角罪人	我想和她每天都能吃上一顿热腾腾的餐饭。	I want to enjoy a hot meal with her every day.		1305							god_00	father_normal	null
+9		1305	主角罪人	面包之神，拜托你了。	Please, the God of Bread.		1306							god_00	father_normal	null
+15		1306	主角罪人	希望你能再给我一次赎罪的机会。	Please give me one more chance to atone for my sins.		1307			bread_jump				god_00	father_normal	null
+8		1307	神女儿	你真的是太迟钝了！	You are such a numbskull!		1308							god_smail	father_look	null
+7		1308	神女儿	现在才开始后悔！	Only start to regret it now!		1309							god_normal	father_look	null
+8		1309	主角罪人	你是……艾莉丝吗？	Are you... Alice?		1310							god_normal	father_look	null
+23		1310	神女儿	我不是你的女儿，但我是她的潜意识化成的梦境主宰。	I am not your daughter, but the dream master that transformed from her subconscious.	1320		2039/2040	2					god_normal	father_look	null
+16		1311	主角罪人	那些回忆……是她想要展示给我看吗？	Those memories... are the ones she wants to show me?		1312							god_normal	father_look	null
+22		1312	神女儿	不是这样的，她可能已经忘记了那些不开心的瞬间。	Not like that, she might have already forgotten those unpleasant moments.		1313							god_normal	father_look	null
+11		1313	神女儿	但是我帮她保存了下来。	But I kept them for her.		1314							god_hope	father_look	null
+18		1314	神女儿	她太懂事了，知道你辛苦，所以没有告诉你。	She is just too sensible to talk about those sorts of things because she knows you work so hard.		1315							god_smail	father_look	null
+11		1315	神女儿	所以只能由我来代劳了。	That's why I have to take over this job.									god_smail	father_look	null
+15		1316	主角罪人	所以说审判的结果也不会影响到谁？	So those sentences won't affect anybody?		1317							god_normal	father_look	null
+11		1317	神女儿	没错。毕竟这里是梦境。	Yes. After all, this is only a dream.		1318							god_smail	father_look	null
+22		1318	神女儿	我只是想让你去多了解一下她经历过的那些事情。	I just want you to learn more about what she has been through.		1319							god_hope	father_look	null
+18		1319	神女儿	让不靠谱的爸爸更多了解一些他的女儿。	Let the unreliable father learn more about his daughter.									god_normal	father_look	null
+16		1320	神女儿	那么，你应该明白接下来要做什么了吧？	So, I presume you know what to do next?		1321							god_normal	father_look	null
+10		1321	主角罪人	谢谢你……面包之神。	Thank you... the God of Bread.		1322							god_normal	father_look	null
+4		1322	神女儿	不客气。	No problem.		1323							god_smail	father_look	null
+10		1323	神女儿	因为，我已经说过了……	As I said before... 		1324							god_normal	father_look	null
+11		1324	神女儿	我对你有百分之百的信任！	I have 100% confidence in you！		1325							god_hope	father_look	null
+2		1326	主角	看起来确实是一家杂货铺……	It does seem to be a corner store...		1188						father_00	god_00	ciabatta_normal	null
